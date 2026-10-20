@@ -1,0 +1,13 @@
+.local/
+work/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*.pem
+id_ed25519*
+*.safetensors
+*.mp4
+*.png
+*.jpg

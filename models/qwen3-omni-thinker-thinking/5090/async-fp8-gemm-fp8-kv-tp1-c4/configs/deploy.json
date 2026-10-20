@@ -1,0 +1,61 @@
+{
+  "pipeline": "qwen3_omni_moe_thinker_only",
+  "async_chunk": false,
+  "dtype": "bfloat16",
+  "distributed_executor_backend": "mp",
+  "enable_prefix_caching": false,
+  "stages": [
+    {
+      "stage_id": 0,
+      "devices": "0",
+      "tensor_parallel_size": 1,
+      "gpu_memory_utilization": 0.9,
+      "max_num_seqs": 4,
+      "max_num_batched_tokens": 4096,
+      "max_model_len": 65536,
+      "enforce_eager": false,
+      "async_scheduling": true,
+      "moe_backend": "cutlass",
+      "enable_prefix_caching": false,
+      "mm_processor_cache_gb": 0,
+      "limit_mm_per_prompt": {
+        "image": 5,
+        "video": 1,
+        "audio": 1
+      },
+      "compilation_config": {
+        "mode": 3,
+        "cudagraph_mode": "FULL_AND_PIECEWISE",
+        "custom_ops": [
+          "+rotary_embedding"
+        ],
+        "cudagraph_capture_sizes": [
+          1,
+          2,
+          4
+        ],
+        "max_cudagraph_capture_size": 4
+      },
+      "default_sampling_params": {
+        "temperature": 0,
+        "seed": 0,
+        "max_tokens": 16384,
+        "repetition_penalty": 1
+      },
+      "enable_chunked_prefill": true,
+      "worker_cls": "mixed_fp8_worker.MixedFp8AuditWorker",
+      "kv_cache_memory_bytes": 6710886400,
+      "kv_cache_dtype": "fp8_e4m3",
+      "attention_backend": "FLASHINFER",
+      "attention_config": {
+        "use_trtllm_attention": true,
+        "disable_flashinfer_q_quantization": true
+      },
+      "quantization_config": {
+        "targets": {
+          "re:^thinker\\.language_model\\.model\\.layers\\.\\d+\\.self_attn\\.(qkv_proj|o_proj)$": "fp8_per_tensor"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "bench_caption_source_sha256": "3dd64a444701e55f7ca78838fae4b078d5dddec2ebe84f341b2e1252354a06d1",
+  "benchmark_client_logic_unchanged": true,
+  "native_adapter_logic_unchanged": true,
+  "benchmark_client_normalized_lf_sha256": "aa8be5f22bce2a8ad8848406bbe01f42daa85219f8797cbb6290923f4fb40422",
+  "common_adaptations": [
+    "remove unused Docker/legacy backends and container-key fallback",
+    "store benchmark lock under ignored .local/"
+  ],
+  "runtime_worker_logic_unchanged": true,
+  "git_line_endings": "normalized to LF",
+  "calibration_source_provenance_removed": true,
+  "wrappers": "New path-parameterized packaging wrappers; no additional GPU benchmark was run for publication.",
+  "internal_evidence_archives_not_published": true
+}

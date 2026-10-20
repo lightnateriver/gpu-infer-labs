@@ -1,0 +1,296 @@
+{
+  "heldout_used": false,
+  "samples": 320,
+  "method": "max abs / 448 with 10 percent headroom",
+  "granularity": "one static K scale and V scale per layer",
+  "layers": {
+    "thinker.language_model.model.layers.0.self_attn.attn": {
+      "k_amax": 68.0,
+      "v_amax": 0.1015625,
+      "k_scale": 0.16696428571428573,
+      "v_scale": 0.0002493722098214286
+    },
+    "thinker.language_model.model.layers.1.self_attn.attn": {
+      "k_amax": 59.75,
+      "v_amax": 0.1337890625,
+      "k_scale": 0.1467075892857143,
+      "v_scale": 0.00032849993024553577
+    },
+    "thinker.language_model.model.layers.2.self_attn.attn": {
+      "k_amax": 25.5,
+      "v_amax": 0.162109375,
+      "k_scale": 0.06261160714285714,
+      "v_scale": 0.0003980364118303572
+    },
+    "thinker.language_model.model.layers.3.self_attn.attn": {
+      "k_amax": 158.0,
+      "v_amax": 0.341796875,
+      "k_scale": 0.3879464285714286,
+      "v_scale": 0.0008392333984375001
+    },
+    "thinker.language_model.model.layers.4.self_attn.attn": {
+      "k_amax": 41.0,
+      "v_amax": 0.515625,
+      "k_scale": 0.10066964285714286,
+      "v_scale": 0.0012660435267857143
+    },
+    "thinker.language_model.model.layers.5.self_attn.attn": {
+      "k_amax": 50.25,
+      "v_amax": 0.294921875,
+      "k_scale": 0.12338169642857144,
+      "v_scale": 0.0007241385323660715
+    },
+    "thinker.language_model.model.layers.6.self_attn.attn": {
+      "k_amax": 27.875,
+      "v_amax": 0.408203125,
+      "k_scale": 0.06844308035714286,
+      "v_scale": 0.001002284458705357
+    },
+    "thinker.language_model.model.layers.7.self_attn.attn": {
+      "k_amax": 46.5,
+      "v_amax": 0.3984375,
+      "k_scale": 0.11417410714285715,
+      "v_scale": 0.0009783063616071429
+    },
+    "thinker.language_model.model.layers.8.self_attn.attn": {
+      "k_amax": 55.75,
+      "v_amax": 0.474609375,
+      "k_scale": 0.13688616071428572,
+      "v_scale": 0.0011653355189732144
+    },
+    "thinker.language_model.model.layers.9.self_attn.attn": {
+      "k_amax": 46.5,
+      "v_amax": 0.515625,
+      "k_scale": 0.11417410714285715,
+      "v_scale": 0.0012660435267857143
+    },
+    "thinker.language_model.model.layers.10.self_attn.attn": {
+      "k_amax": 26.625,
+      "v_amax": 0.5390625,
+      "k_scale": 0.06537388392857144,
+      "v_scale": 0.0013235909598214286
+    },
+    "thinker.language_model.model.layers.11.self_attn.attn": {
+      "k_amax": 30.5,
+      "v_amax": 0.546875,
+      "k_scale": 0.07488839285714287,
+      "v_scale": 0.0013427734375
+    },
+    "thinker.language_model.model.layers.12.self_attn.attn": {
+      "k_amax": 62.25,
+      "v_amax": 0.486328125,
+      "k_scale": 0.15284598214285716,
+      "v_scale": 0.0011941092354910716
+    },
+    "thinker.language_model.model.layers.13.self_attn.attn": {
+      "k_amax": 24.0,
+      "v_amax": 0.5546875,
+      "k_scale": 0.058928571428571434,
+      "v_scale": 0.0013619559151785716
+    },
+    "thinker.language_model.model.layers.14.self_attn.attn": {
+      "k_amax": 23.125,
+      "v_amax": 1.4375,
+      "k_scale": 0.05678013392857144,
+      "v_scale": 0.003529575892857143
+    },
+    "thinker.language_model.model.layers.15.self_attn.attn": {
+      "k_amax": 23.875,
+      "v_amax": 0.5,
+      "k_scale": 0.05862165178571429,
+      "v_scale": 0.0012276785714285716
+    },
+    "thinker.language_model.model.layers.16.self_attn.attn": {
+      "k_amax": 19.625,
+      "v_amax": 0.77734375,
+      "k_scale": 0.048186383928571434,
+      "v_scale": 0.0019086565290178572
+    },
+    "thinker.language_model.model.layers.17.self_attn.attn": {
+      "k_amax": 39.0,
+      "v_amax": 0.66796875,
+      "k_scale": 0.09575892857142858,
+      "v_scale": 0.0016401018415178573
+    },
+    "thinker.language_model.model.layers.18.self_attn.attn": {
+      "k_amax": 29.25,
+      "v_amax": 0.7265625,
+      "k_scale": 0.07181919642857144,
+      "v_scale": 0.001783970424107143
+    },
+    "thinker.language_model.model.layers.19.self_attn.attn": {
+      "k_amax": 45.75,
+      "v_amax": 1.2265625,
+      "k_scale": 0.1123325892857143,
+      "v_scale": 0.0030116489955357146
+    },
+    "thinker.language_model.model.layers.20.self_attn.attn": {
+      "k_amax": 54.0,
+      "v_amax": 1.0234375,
+      "k_scale": 0.13258928571428572,
+      "v_scale": 0.0025129045758928575
+    },
+    "thinker.language_model.model.layers.21.self_attn.attn": {
+      "k_amax": 41.75,
+      "v_amax": 3.078125,
+      "k_scale": 0.10251116071428572,
+      "v_scale": 0.007557896205357143
+    },
+    "thinker.language_model.model.layers.22.self_attn.attn": {
+      "k_amax": 26.25,
+      "v_amax": 4.46875,
+      "k_scale": 0.06445312500000001,
+      "v_scale": 0.010972377232142857
+    },
+    "thinker.language_model.model.layers.23.self_attn.attn": {
+      "k_amax": 26.375,
+      "v_amax": 4.125,
+      "k_scale": 0.06476004464285715,
+      "v_scale": 0.010128348214285715
+    },
+    "thinker.language_model.model.layers.24.self_attn.attn": {
+      "k_amax": 49.5,
+      "v_amax": 4.46875,
+      "k_scale": 0.12154017857142858,
+      "v_scale": 0.010972377232142857
+    },
+    "thinker.language_model.model.layers.25.self_attn.attn": {
+      "k_amax": 24.5,
+      "v_amax": 8.5,
+      "k_scale": 0.06015625000000001,
+      "v_scale": 0.020870535714285716
+    },
+    "thinker.language_model.model.layers.26.self_attn.attn": {
+      "k_amax": 22.75,
+      "v_amax": 1.2578125,
+      "k_scale": 0.055859375,
+      "v_scale": 0.0030883789062500005
+    },
+    "thinker.language_model.model.layers.27.self_attn.attn": {
+      "k_amax": 24.125,
+      "v_amax": 1.0546875,
+      "k_scale": 0.05923549107142857,
+      "v_scale": 0.002589634486607143
+    },
+    "thinker.language_model.model.layers.28.self_attn.attn": {
+      "k_amax": 22.25,
+      "v_amax": 1.03125,
+      "k_scale": 0.05463169642857143,
+      "v_scale": 0.0025320870535714287
+    },
+    "thinker.language_model.model.layers.29.self_attn.attn": {
+      "k_amax": 36.5,
+      "v_amax": 1.203125,
+      "k_scale": 0.08962053571428573,
+      "v_scale": 0.0029541015625
+    },
+    "thinker.language_model.model.layers.30.self_attn.attn": {
+      "k_amax": 28.25,
+      "v_amax": 1.0234375,
+      "k_scale": 0.0693638392857143,
+      "v_scale": 0.0025129045758928575
+    },
+    "thinker.language_model.model.layers.31.self_attn.attn": {
+      "k_amax": 46.25,
+      "v_amax": 1.5625,
+      "k_scale": 0.11356026785714288,
+      "v_scale": 0.0038364955357142864
+    },
+    "thinker.language_model.model.layers.32.self_attn.attn": {
+      "k_amax": 53.5,
+      "v_amax": 4.15625,
+      "k_scale": 0.13136160714285713,
+      "v_scale": 0.010205078125000001
+    },
+    "thinker.language_model.model.layers.33.self_attn.attn": {
+      "k_amax": 43.75,
+      "v_amax": 6.5625,
+      "k_scale": 0.10742187500000001,
+      "v_scale": 0.016113281250000003
+    },
+    "thinker.language_model.model.layers.34.self_attn.attn": {
+      "k_amax": 24.625,
+      "v_amax": 7.40625,
+      "k_scale": 0.06046316964285715,
+      "v_scale": 0.018184988839285716
+    },
+    "thinker.language_model.model.layers.35.self_attn.attn": {
+      "k_amax": 27.625,
+      "v_amax": 6.84375,
+      "k_scale": 0.06782924107142858,
+      "v_scale": 0.016803850446428573
+    },
+    "thinker.language_model.model.layers.36.self_attn.attn": {
+      "k_amax": 55.0,
+      "v_amax": 8.25,
+      "k_scale": 0.13504464285714288,
+      "v_scale": 0.02025669642857143
+    },
+    "thinker.language_model.model.layers.37.self_attn.attn": {
+      "k_amax": 25.75,
+      "v_amax": 13.3125,
+      "k_scale": 0.06322544642857143,
+      "v_scale": 0.03268694196428572
+    },
+    "thinker.language_model.model.layers.38.self_attn.attn": {
+      "k_amax": 25.75,
+      "v_amax": 2.953125,
+      "k_scale": 0.06322544642857143,
+      "v_scale": 0.0072509765625
+    },
+    "thinker.language_model.model.layers.39.self_attn.attn": {
+      "k_amax": 24.25,
+      "v_amax": 3.015625,
+      "k_scale": 0.05954241071428572,
+      "v_scale": 0.007404436383928572
+    },
+    "thinker.language_model.model.layers.40.self_attn.attn": {
+      "k_amax": 25.875,
+      "v_amax": 2.515625,
+      "k_scale": 0.06353236607142858,
+      "v_scale": 0.006176757812500001
+    },
+    "thinker.language_model.model.layers.41.self_attn.attn": {
+      "k_amax": 36.25,
+      "v_amax": 2.890625,
+      "k_scale": 0.08900669642857142,
+      "v_scale": 0.00709751674107143
+    },
+    "thinker.language_model.model.layers.42.self_attn.attn": {
+      "k_amax": 29.75,
+      "v_amax": 4.5,
+      "k_scale": 0.073046875,
+      "v_scale": 0.011049107142857144
+    },
+    "thinker.language_model.model.layers.43.self_attn.attn": {
+      "k_amax": 20.375,
+      "v_amax": 5.4375,
+      "k_scale": 0.05002790178571429,
+      "v_scale": 0.013351004464285715
+    },
+    "thinker.language_model.model.layers.44.self_attn.attn": {
+      "k_amax": 17.0,
+      "v_amax": 7.125,
+      "k_scale": 0.04174107142857143,
+      "v_scale": 0.017494419642857143
+    },
+    "thinker.language_model.model.layers.45.self_attn.attn": {
+      "k_amax": 16.125,
+      "v_amax": 12.625,
+      "k_scale": 0.03959263392857143,
+      "v_scale": 0.03099888392857143
+    },
+    "thinker.language_model.model.layers.46.self_attn.attn": {
+      "k_amax": 25.875,
+      "v_amax": 8.625,
+      "k_scale": 0.06353236607142858,
+      "v_scale": 0.021177455357142858
+    },
+    "thinker.language_model.model.layers.47.self_attn.attn": {
+      "k_amax": 29.25,
+      "v_amax": 10.375,
+      "k_scale": 0.07181919642857144,
+      "v_scale": 0.02547433035714286
+    }
+  }
+}

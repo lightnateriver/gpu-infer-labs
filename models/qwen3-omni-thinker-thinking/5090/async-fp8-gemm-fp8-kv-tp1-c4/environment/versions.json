@@ -1,0 +1,22 @@
+{
+  "python": "3.10",
+  "platform": "Linux x86_64",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "gpu_memory_gib": 32,
+  "compute_capability": "12.0",
+  "packages": {
+    "torch": "2.13.0+cu130",
+    "transformers": "5.14.1",
+    "vllm": "0.30.0",
+    "vllm-omni": "0.30.0",
+    "compressed-tensors": "0.17.0",
+    "flashinfer-python": "0.6.18.post1",
+    "triton": "3.7.1",
+    "torchvision": "0.28.0+cu130"
+  },
+  "cuda_toolkit": "13.0",
+  "nvcc": "13.0.48",
+  "host_cxx": "GCC 11.4.0",
+  "execution": "native Python venv; not a published Docker image",
+  "package_commit_ids": "not recorded; version strings do not establish byte identity"
+}

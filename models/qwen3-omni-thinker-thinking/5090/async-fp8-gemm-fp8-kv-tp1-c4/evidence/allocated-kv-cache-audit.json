@@ -1,0 +1,485 @@
+{
+  "expected_logical_dtype": "torch.float8_e4m3fn",
+  "views": [
+    {
+      "name": "kv_caches.0",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.1",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.2",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.3",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.4",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.5",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.6",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.7",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.8",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.9",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.10",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.11",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.12",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.13",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.14",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.15",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.16",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.17",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.18",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.19",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.20",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.21",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.22",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.23",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.24",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.25",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.26",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.27",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.28",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.29",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.30",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.31",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.32",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.33",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.34",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.35",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.36",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.37",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.38",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.39",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.40",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.41",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.42",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.43",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.44",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.45",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.46",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    },
+    {
+      "name": "kv_caches.47",
+      "dtype": "torch.uint8",
+      "shape": [
+        8533,
+        4,
+        16,
+        256
+      ]
+    }
+  ]
+}
