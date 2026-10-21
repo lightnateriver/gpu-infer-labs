@@ -9,3 +9,7 @@
 JSON 的模型目录/alias/端口为通用值，启动包装脚本覆盖模型目录与端口。其余计算参数来自实测配置。N3 capture=[1,2,4,8,16]，实际审计 V1 GPUModelRunner / NgramProposerGPU / async=true；6.25 GiB FP8 KV、XQA、BF16 Q、96 attention FP8 线性层、TP1/C4。
 
 参数及统计边界见 [方案说明](../readme.md)。
+
+## 后续多 FULL Graph / KV 更新（2026-10-21）
+
+[当前方案](../../native-ngram3-multifull-kv6p5-tp1-c4/readme.md)：TP1/C4、Thinking计入、3.575有效条/分钟，完整轮310.22TPS/卡中位数、45/45完整、零抢占；相对其本轮C4基线+10.33%。本目录的历史结果和代码保留，新实验输出上限/测量协议不同，不能跨报告直接归因，也未证明Caption语义精度无损。

@@ -116,3 +116,7 @@ bash scripts/benchmark.sh --run-dir "$PWD/.local/n5-run" --rounds 2
 保留 90 条匿名指标及配置审计，未公开业务视频、参考图、system prompt、shot plan 内容、原始 Caption/Thinking、原数据来源、登录信息、主机 IP/GPU UUID 或凭证。15 条性能集不是带人工真值的精度集；本报告不声称音乐分类/H800 精度结果可迁移到该 Caption 实验。
 
 [返回 RTX 5090 索引](../readme.md) · [原 Omni FP8 方案](../async-fp8-gemm-fp8-kv-tp1-c4/readme.md)
+
+## 后续多 FULL Graph / KV 更新（2026-10-21）
+
+[当前方案](../native-ngram3-multifull-kv6p5-tp1-c4/readme.md)：TP1/C4、Thinking计入、3.575有效条/分钟，完整轮310.22TPS/卡中位数、45/45完整、零抢占；相对其本轮C4基线+10.33%。本目录的历史结果和代码保留，新实验输出上限/测量协议不同，不能跨报告直接归因，也未证明Caption语义精度无损。

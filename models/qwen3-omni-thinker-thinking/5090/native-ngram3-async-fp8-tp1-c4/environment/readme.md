@@ -9,3 +9,7 @@ vLLM-Omni 虽安装，但原生 N3 进程设置 VLLM_PLUGINS='' 禁止其模型�
 check_environment.py 是必要版本/工具检查，启动后的 native/modality/FP8/KV 审计同样必需。CUDA 13.0 工具链需要完整 include/CCCL 和 nvcc；不以新版 nvcc 替换后继续声称环境对齐。
 
 [运行步骤](../readme.md) · [源码审计](../evidence/readme.md)
+
+## 后续多 FULL Graph / KV 更新（2026-10-21）
+
+[当前方案](../../native-ngram3-multifull-kv6p5-tp1-c4/readme.md)：TP1/C4、Thinking计入、3.575有效条/分钟，完整轮310.22TPS/卡中位数、45/45完整、零抢占；相对其本轮C4基线+10.33%。本目录的历史结果和代码保留，新实验输出上限/测量协议不同，不能跨报告直接归因，也未证明Caption语义精度无损。

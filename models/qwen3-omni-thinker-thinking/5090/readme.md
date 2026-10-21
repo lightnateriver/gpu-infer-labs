@@ -1,14 +1,19 @@
-# RTX 5090 · Qwen3-Omni Thinker / Thinking
+# RTX5090 · Qwen3-Omni Thinker / Thinking
 
-| 方案 | 运行时 | 配置 | 完整任务吞吐 | 输出 token/s/卡 |
-|---|---|---|---:|---:|
-| [原异步 FP8 GEMM + FP8 KV](async-fp8-gemm-fp8-kv-tp1-c4/readme.md) | vLLM-Omni | TP1 / C4 | 3.024 条/分钟 | 238.54 |
-| [新增原生 N3/K3 + Async + FP8](native-ngram3-async-fp8-tp1-c4/readme.md) | native vLLM | TP1 / C4 | **3.161 条/分钟** | **273.71** |
+## 当前采用方案
 
-数值分别来自各自两轮实测，包含 Thinking；每条件 15 个不同视频 × 2 轮。不同运行时结果只作背景，不能据此归因 n-gram 收益。原 Omni 方案同配置另一次复测为 2.815 条/分钟，显示运行波动。
+[原生N3/K3＋多FULL Graph＋FP8 KV6.5GiB](native-ngram3-multifull-kv6p5-tp1-c4/readme.md)，TP1/C4、chunk4096。三轮45/45完整、零抢占，**3.575有效条/分钟**，完整轮输出TPS/卡中位数**310.22**。同轮C4/KV6.25GiB基线3.240条/分钟，共10次抢占；有效吞吐提升10.33%。全部Thinking计入。
 
-新增报告包含更合适的原生无 n-gram 对照：3.090 条/分钟、247.21 token/s/卡。N3 为 3.161 / 273.71，TPOT 从 13.26 降至 11.48 ms；任务吞吐 +2.27%，但输出变长，尚未证明稳定收益。N5 为 3.188 / 277.17，TPOT 12.32 ms；未保留。不要仅按 token TPS 宣称任务处理能力或 Caption 质量提高。
+新报告完整呈现C3、90%/95%准入、6.5/6.75GiB容量、chunk2048七组对照、330条匿名指标和KV时间线。KV6.5GiB峰值仍99.10%，不保证所有输入零抢占；完整性不是语义精度。
 
-两套方案都用非官方 Thinking-heretic NVFP4 权重；96 个 attention 线性层 FP8，MoE NVFP4，48 层 FP8 KV；不是 BF16 Thinking 全模型。每个目录独立提供版本、配置、核心代码、实践测试方案、匿名证据与报告。新方案禁用 Omni 插件，修复原生多模态 modality metadata，并使用 GPU n-gram proposer。
+## 历史方案
 
-需要自备有权限使用的同指纹模型和冻结输入；仓库不分发权重、媒体、业务 prompt、原始 Caption、原数据来源、主机信息或凭证。各 README 已补充新方案入口。
+| 方案 | 运行时 | 记录值条/min | 记录输出TPS/卡 | 协议说明 |
+|---|---|---:|---:|---|
+| [Omni Async FP8](async-fp8-gemm-fp8-kv-tp1-c4/readme.md) | vLLM-Omni | 3.024 | 238.54 | 两轮；同配置另测2.815 |
+| [原生N3/K3](native-ngram3-async-fp8-tp1-c4/readme.md) | native vLLM | 3.161 | 273.71 | 两轮；输出上限16384 |
+| [多FULL＋KV6.5GiB](native-ngram3-multifull-kv6p5-tp1-c4/readme.md) | native vLLM | 3.575 | 310.22 | 至少三完整轮；输出上限24576；TPS为轮中位数 |
+
+各行计量方式和输出协议不同，历史值仅作索引，不能直接归因Graph、KV或n-gram单项提升。最新报告的收益基线为本轮保留多FULL的C4方案，而非旧N3/Omni。
+
+均使用非官方Thinking-heretic-NVFP4衍生权重、96个attention线性层FP8、48层FP8 KV；不是官方BF16 Thinking全模型。每个目录保持configs/runtime/benchmark/scripts/environment/data/evidence/report布局，自备有权限的模型与冻结数据。原环境存在已有修改，详见各方案版本/源码指纹与发布脚本未GPU复测的边界。

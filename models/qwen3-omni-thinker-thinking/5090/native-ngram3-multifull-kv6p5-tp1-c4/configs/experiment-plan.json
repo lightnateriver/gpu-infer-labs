@@ -1,0 +1,103 @@
+{
+  "default": "kv6p5",
+  "qualified_rounds": 3,
+  "max_attempts": 9,
+  "initial_order": [
+    "c4",
+    "c3",
+    "c3",
+    "c4",
+    "c4",
+    "c3"
+  ],
+  "admission_order": [
+    "budget90",
+    "budget95",
+    "budget95",
+    "budget90",
+    "budget90",
+    "budget95"
+  ],
+  "remaining_order": [
+    "memory",
+    "kv6p5",
+    "kv6p75",
+    "chunk2048"
+  ],
+  "variants": {
+    "c4": {
+      "config": "c4.json",
+      "concurrency": 4,
+      "ratio": 0,
+      "reserve": 9000,
+      "kv_tokens": 136528,
+      "kv_gib": 6.25,
+      "chunk": 4096
+    },
+    "c3": {
+      "config": "c3.json",
+      "concurrency": 3,
+      "ratio": 0,
+      "reserve": 9000,
+      "kv_tokens": 136528,
+      "kv_gib": 6.25,
+      "chunk": 4096
+    },
+    "budget90": {
+      "config": "budget90.json",
+      "concurrency": 4,
+      "ratio": 0.9,
+      "reserve": 9000,
+      "kv_tokens": 136528,
+      "kv_gib": 6.25,
+      "chunk": 4096
+    },
+    "budget95": {
+      "config": "budget95.json",
+      "concurrency": 4,
+      "ratio": 0.95,
+      "reserve": 9000,
+      "kv_tokens": 136528,
+      "kv_gib": 6.25,
+      "chunk": 4096
+    },
+    "kv6p5": {
+      "config": "deploy.json",
+      "concurrency": 4,
+      "ratio": 0,
+      "reserve": 9000,
+      "kv_tokens": 141984,
+      "kv_gib": 6.5,
+      "chunk": 4096
+    },
+    "kv6p75": {
+      "config": "kv6p75.json",
+      "concurrency": 4,
+      "ratio": 0,
+      "reserve": 9000,
+      "kv_tokens": 147456,
+      "kv_gib": 6.75,
+      "chunk": 4096
+    },
+    "chunk2048": {
+      "config": "chunk2048.json",
+      "concurrency": 4,
+      "ratio": 0,
+      "reserve": 9000,
+      "kv_tokens": 141984,
+      "kv_gib": 6.5,
+      "chunk": 2048
+    },
+    "memory": {
+      "config": "memory.json",
+      "concurrency": 4,
+      "ratio": 0,
+      "reserve": 9000,
+      "kv_tokens": 136528,
+      "kv_gib": 6.25,
+      "chunk": 4096
+    }
+  },
+  "selection": "Maximum sum(valid captions)/sum(all formal attempt seconds)*60; adopt only if >=2% above c4, otherwise retain c4.",
+  "capacity_gate": "Only test KV increases covered by measured conservative headroom; still require startup, warmup and full natural requests."
+}

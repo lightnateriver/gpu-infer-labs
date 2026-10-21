@@ -1,0 +1,18 @@
+{
+  "core_lf_text_identity": true,
+  "generation_request_ast_identity": true,
+  "compute_configs_match_measured": true,
+  "metric_reaggregation": true,
+  "input_pairing": true,
+  "kv_scale_values_identity": true,
+  "api_count_audits": 22,
+  "graph_checks_all_exact": true,
+  "fifo_budget_rounds": 6,
+  "standalone_html": true,
+  "throughput_bars": 7,
+  "kv_timelines": 7,
+  "publication_gpu_rebenchmark": false,
+  "python310_parse": true,
+  "privacy_findings": 0,
+  "kind": "Static publication review, not a new GPU rerun or semantic accuracy evaluation."
+}

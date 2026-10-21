@@ -10,3 +10,7 @@
 兼容补丁定位 `embed_input_ids` 中恰好一个赋值位置并记录修改前后源码 SHA；不匹配即失败，不能静默套用新版 vLLM。补丁只在该 worker 进程内生效，不修改共享 site-packages。代码针对已记录版本，不能视为所有版本通用插件。
 
 [配置](../configs/readme.md) · [方案与运行方式](../readme.md)
+
+## 后续多 FULL Graph / KV 更新（2026-10-21）
+
+[当前方案](../../native-ngram3-multifull-kv6p5-tp1-c4/readme.md)：TP1/C4、Thinking计入、3.575有效条/分钟，完整轮310.22TPS/卡中位数、45/45完整、零抢占；相对其本轮C4基线+10.33%。本目录的历史结果和代码保留，新实验输出上限/测量协议不同，不能跨报告直接归因，也未证明Caption语义精度无损。

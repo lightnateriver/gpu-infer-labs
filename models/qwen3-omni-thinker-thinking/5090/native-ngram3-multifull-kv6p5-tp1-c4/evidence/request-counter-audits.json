@@ -1,0 +1,156 @@
+[
+  {
+    "name": "c4-r1",
+    "expected": 15,
+    "actual": 15.0,
+    "same_service_start": true,
+    "no_other_generation_requests": true
+  },
+  {
+    "name": "c4-r2",
+    "expected": 15,
+    "actual": 15.0,
+    "same_service_start": true,
+    "no_other_generation_requests": true
+  },
+  {
+    "name": "c4-r3",
+    "expected": 15,
+    "actual": 15.0,
+    "same_service_start": true,
+    "no_other_generation_requests": true
+  },
+  {
+    "name": "c4-r4",
+    "expected": 15,
+    "actual": 15.0,
+    "same_service_start": true,
+    "no_other_generation_requests": true
+  },
+  {
+    "name": "c3-r1",
+    "expected": 15,
+    "actual": 15.0,
+    "same_service_start": true,
+    "no_other_generation_requests": true
+  },
+  {
+    "name": "c3-r2",
+    "expected": 15,
+    "actual": 15.0,
+    "same_service_start": true,
+    "no_other_generation_requests": true
+  },
+  {
+    "name": "c3-r3",
+    "expected": 15,
+    "actual": 15.0,
+    "same_service_start": true,
+    "no_other_generation_requests": true
+  },
+  {
+    "name": "budget90-r1",
+    "expected": 15,
+    "actual": 15.0,
+    "same_service_start": true,
+    "no_other_generation_requests": true
+  },
+  {
+    "name": "budget90-r2",
+    "expected": 15,
+    "actual": 15.0,
+    "same_service_start": true,
+    "no_other_generation_requests": true
+  },
+  {
+    "name": "budget90-r3",
+    "expected": 15,
+    "actual": 15.0,
+    "same_service_start": true,
+    "no_other_generation_requests": true
+  },
+  {
+    "name": "budget95-r1",
+    "expected": 15,
+    "actual": 15.0,
+    "same_service_start": true,
+    "no_other_generation_requests": true
+  },
+  {
+    "name": "budget95-r2",
+    "expected": 15,
+    "actual": 15.0,
+    "same_service_start": true,
+    "no_other_generation_requests": true
+  },
+  {
+    "name": "budget95-r3",
+    "expected": 15,
+    "actual": 15.0,
+    "same_service_start": true,
+    "no_other_generation_requests": true
+  },
+  {
+    "name": "kv6p5-r1",
+    "expected": 15,
+    "actual": 15.0,
+    "same_service_start": true,
+    "no_other_generation_requests": true
+  },
+  {
+    "name": "kv6p5-r2",
+    "expected": 15,
+    "actual": 15.0,
+    "same_service_start": true,
+    "no_other_generation_requests": true
+  },
+  {
+    "name": "kv6p5-r3",
+    "expected": 15,
+    "actual": 15.0,
+    "same_service_start": true,
+    "no_other_generation_requests": true
+  },
+  {
+    "name": "kv6p75-r1",
+    "expected": 15,
+    "actual": 15.0,
+    "same_service_start": true,
+    "no_other_generation_requests": true
+  },
+  {
+    "name": "kv6p75-r2",
+    "expected": 15,
+    "actual": 15.0,
+    "same_service_start": true,
+    "no_other_generation_requests": true
+  },
+  {
+    "name": "kv6p75-r3",
+    "expected": 15,
+    "actual": 15.0,
+    "same_service_start": true,
+    "no_other_generation_requests": true
+  },
+  {
+    "name": "chunk2048-r1",
+    "expected": 15,
+    "actual": 15.0,
+    "same_service_start": true,
+    "no_other_generation_requests": true
+  },
+  {
+    "name": "chunk2048-r2",
+    "expected": 15,
+    "actual": 15.0,
+    "same_service_start": true,
+    "no_other_generation_requests": true
+  },
+  {
+    "name": "chunk2048-r3",
+    "expected": 15,
+    "actual": 15.0,
+    "same_service_start": true,
+    "no_other_generation_requests": true
+  }
+]

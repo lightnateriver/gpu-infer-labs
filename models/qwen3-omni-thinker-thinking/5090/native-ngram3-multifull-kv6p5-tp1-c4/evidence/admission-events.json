@@ -1,0 +1,1832 @@
+[
+  {
+    "name": "budget90-r1",
+    "events": [
+      {
+        "event": "admit",
+        "prompt_tokens": 30960,
+        "output_reserve": 9000,
+        "reserved_tokens": 39960,
+        "active": 1,
+        "total_reserved": 39960,
+        "budget": 122875,
+        "wait_seconds": 0.0008217981085181236,
+        "seconds": 0.0,
+        "sample_id": "sample-001"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 30956,
+        "output_reserve": 9000,
+        "reserved_tokens": 39956,
+        "active": 2,
+        "total_reserved": 79916,
+        "budget": 122875,
+        "wait_seconds": 0.0006029100622981787,
+        "seconds": 0.00033545494079589844,
+        "sample_id": "sample-002"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 32251,
+        "output_reserve": 9000,
+        "reserved_tokens": 41251,
+        "active": 3,
+        "total_reserved": 121167,
+        "budget": 122875,
+        "wait_seconds": 0.0006225790129974484,
+        "seconds": 0.0007374286651611328,
+        "sample_id": "sample-003"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 81207,
+        "budget": 122875,
+        "seconds": 43.9214243888855,
+        "sample_id": "sample-001"
+      },
+      {
+        "event": "release",
+        "active": 1,
+        "total_reserved": 39956,
+        "budget": 122875,
+        "seconds": 48.9562726020813,
+        "sample_id": "sample-003"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 35048,
+        "output_reserve": 9000,
+        "reserved_tokens": 44048,
+        "active": 2,
+        "total_reserved": 84004,
+        "budget": 122875,
+        "wait_seconds": 48.956110875005834,
+        "seconds": 48.95658850669861,
+        "sample_id": "sample-004"
+      },
+      {
+        "event": "release",
+        "active": 1,
+        "total_reserved": 44048,
+        "budget": 122875,
+        "seconds": 50.159141540527344,
+        "sample_id": "sample-002"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 31568,
+        "output_reserve": 9000,
+        "reserved_tokens": 40568,
+        "active": 2,
+        "total_reserved": 84616,
+        "budget": 122875,
+        "wait_seconds": 6.237760199001059,
+        "seconds": 50.15936303138733,
+        "sample_id": "sample-005"
+      },
+      {
+        "event": "release",
+        "active": 1,
+        "total_reserved": 40568,
+        "budget": 122875,
+        "seconds": 91.8668761253357,
+        "sample_id": "sample-004"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 37321,
+        "output_reserve": 9000,
+        "reserved_tokens": 46321,
+        "active": 2,
+        "total_reserved": 86889,
+        "budget": 122875,
+        "wait_seconds": 42.91067494195886,
+        "seconds": 91.86711287498474,
+        "sample_id": "sample-006"
+      },
+      {
+        "event": "release",
+        "active": 1,
+        "total_reserved": 46321,
+        "budget": 122875,
+        "seconds": 92.50700283050537,
+        "sample_id": "sample-005"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 28886,
+        "output_reserve": 9000,
+        "reserved_tokens": 37886,
+        "active": 2,
+        "total_reserved": 84207,
+        "budget": 122875,
+        "wait_seconds": 42.34791101596784,
+        "seconds": 92.50723600387573,
+        "sample_id": "sample-007"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 24066,
+        "output_reserve": 9000,
+        "reserved_tokens": 33066,
+        "active": 3,
+        "total_reserved": 117273,
+        "budget": 122875,
+        "wait_seconds": 0.6402393039315939,
+        "seconds": 92.50730204582214,
+        "sample_id": "sample-008"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 84207,
+        "budget": 122875,
+        "seconds": 141.67864561080933,
+        "sample_id": "sample-008"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 28958,
+        "output_reserve": 9000,
+        "reserved_tokens": 37958,
+        "active": 3,
+        "total_reserved": 122165,
+        "budget": 122875,
+        "wait_seconds": 49.171741386991926,
+        "seconds": 141.6789355278015,
+        "sample_id": "sample-009"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 84279,
+        "budget": 122875,
+        "seconds": 153.13865494728088,
+        "sample_id": "sample-007"
+      },
+      {
+        "event": "release",
+        "active": 1,
+        "total_reserved": 37958,
+        "budget": 122875,
+        "seconds": 159.76223945617676,
+        "sample_id": "sample-006"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 30290,
+        "output_reserve": 9000,
+        "reserved_tokens": 39290,
+        "active": 2,
+        "total_reserved": 77248,
+        "budget": 122875,
+        "wait_seconds": 18.08362027700059,
+        "seconds": 159.7625229358673,
+        "sample_id": "sample-010"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 21061,
+        "output_reserve": 9000,
+        "reserved_tokens": 30061,
+        "active": 3,
+        "total_reserved": 107309,
+        "budget": 122875,
+        "wait_seconds": 6.623858328908682,
+        "seconds": 159.76273274421692,
+        "sample_id": "sample-011"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 69351,
+        "budget": 122875,
+        "seconds": 192.51970291137695,
+        "sample_id": "sample-009"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 21205,
+        "output_reserve": 9000,
+        "reserved_tokens": 30205,
+        "active": 3,
+        "total_reserved": 99556,
+        "budget": 122875,
+        "wait_seconds": 32.757483197026886,
+        "seconds": 192.51997208595276,
+        "sample_id": "sample-012"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 69495,
+        "budget": 122875,
+        "seconds": 212.1276671886444,
+        "sample_id": "sample-011"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 23061,
+        "output_reserve": 9000,
+        "reserved_tokens": 32061,
+        "active": 3,
+        "total_reserved": 101556,
+        "budget": 122875,
+        "wait_seconds": 19.60803711693734,
+        "seconds": 212.1279821395874,
+        "sample_id": "sample-013"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 62266,
+        "budget": 122875,
+        "seconds": 220.00759100914001,
+        "sample_id": "sample-010"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 23337,
+        "output_reserve": 9000,
+        "reserved_tokens": 32337,
+        "active": 3,
+        "total_reserved": 94603,
+        "budget": 122875,
+        "wait_seconds": 7.879997476935387,
+        "seconds": 220.00794672966003,
+        "sample_id": "sample-014"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 62542,
+        "budget": 122875,
+        "seconds": 247.33487963676453,
+        "sample_id": "sample-013"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 20492,
+        "output_reserve": 9000,
+        "reserved_tokens": 29492,
+        "active": 3,
+        "total_reserved": 92034,
+        "budget": 122875,
+        "wait_seconds": 27.327441815985367,
+        "seconds": 247.33534979820251,
+        "sample_id": "sample-015"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 61829,
+        "budget": 122875,
+        "seconds": 255.05085563659668,
+        "sample_id": "sample-012"
+      },
+      {
+        "event": "release",
+        "active": 1,
+        "total_reserved": 29492,
+        "budget": 122875,
+        "seconds": 261.5532212257385,
+        "sample_id": "sample-014"
+      },
+      {
+        "event": "release",
+        "active": 0,
+        "total_reserved": 0,
+        "budget": 122875,
+        "seconds": 294.3525984287262,
+        "sample_id": "sample-015"
+      }
+    ]
+  },
+  {
+    "name": "budget90-r2",
+    "events": [
+      {
+        "event": "admit",
+        "prompt_tokens": 30960,
+        "output_reserve": 9000,
+        "reserved_tokens": 39960,
+        "active": 1,
+        "total_reserved": 39960,
+        "budget": 122875,
+        "wait_seconds": 0.0011020080419257283,
+        "seconds": 0.0,
+        "sample_id": "sample-001"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 30956,
+        "output_reserve": 9000,
+        "reserved_tokens": 39956,
+        "active": 2,
+        "total_reserved": 79916,
+        "budget": 122875,
+        "wait_seconds": 0.0008483109995722771,
+        "seconds": 0.0002675056457519531,
+        "sample_id": "sample-002"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 32251,
+        "output_reserve": 9000,
+        "reserved_tokens": 41251,
+        "active": 3,
+        "total_reserved": 121167,
+        "budget": 122875,
+        "wait_seconds": 0.0007580050732940435,
+        "seconds": 0.0005929470062255859,
+        "sample_id": "sample-003"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 81207,
+        "budget": 122875,
+        "seconds": 43.971158266067505,
+        "sample_id": "sample-001"
+      },
+      {
+        "event": "release",
+        "active": 1,
+        "total_reserved": 39956,
+        "budget": 122875,
+        "seconds": 48.9998414516449,
+        "sample_id": "sample-003"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 35048,
+        "output_reserve": 9000,
+        "reserved_tokens": 44048,
+        "active": 2,
+        "total_reserved": 84004,
+        "budget": 122875,
+        "wait_seconds": 48.999931990983896,
+        "seconds": 49.00003218650818,
+        "sample_id": "sample-004"
+      },
+      {
+        "event": "release",
+        "active": 1,
+        "total_reserved": 44048,
+        "budget": 122875,
+        "seconds": 50.2014696598053,
+        "sample_id": "sample-002"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 31568,
+        "output_reserve": 9000,
+        "reserved_tokens": 40568,
+        "active": 2,
+        "total_reserved": 84616,
+        "budget": 122875,
+        "wait_seconds": 6.230344078037888,
+        "seconds": 50.20168352127075,
+        "sample_id": "sample-005"
+      },
+      {
+        "event": "release",
+        "active": 1,
+        "total_reserved": 40568,
+        "budget": 122875,
+        "seconds": 92.02125930786133,
+        "sample_id": "sample-004"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 37321,
+        "output_reserve": 9000,
+        "reserved_tokens": 46321,
+        "active": 2,
+        "total_reserved": 86889,
+        "budget": 122875,
+        "wait_seconds": 43.021489701000974,
+        "seconds": 92.021493434906,
+        "sample_id": "sample-006"
+      },
+      {
+        "event": "release",
+        "active": 1,
+        "total_reserved": 46321,
+        "budget": 122875,
+        "seconds": 92.64721393585205,
+        "sample_id": "sample-005"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 28886,
+        "output_reserve": 9000,
+        "reserved_tokens": 37886,
+        "active": 2,
+        "total_reserved": 84207,
+        "budget": 122875,
+        "wait_seconds": 42.44578173197806,
+        "seconds": 92.64743041992188,
+        "sample_id": "sample-007"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 24066,
+        "output_reserve": 9000,
+        "reserved_tokens": 33066,
+        "active": 3,
+        "total_reserved": 117273,
+        "budget": 122875,
+        "wait_seconds": 0.6266735489480197,
+        "seconds": 92.64812445640564,
+        "sample_id": "sample-008"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 84207,
+        "budget": 122875,
+        "seconds": 142.67458391189575,
+        "sample_id": "sample-008"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 28958,
+        "output_reserve": 9000,
+        "reserved_tokens": 37958,
+        "active": 3,
+        "total_reserved": 122165,
+        "budget": 122875,
+        "wait_seconds": 50.02753250102978,
+        "seconds": 142.67493200302124,
+        "sample_id": "sample-009"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 84279,
+        "budget": 122875,
+        "seconds": 154.26063752174377,
+        "sample_id": "sample-007"
+      },
+      {
+        "event": "release",
+        "active": 1,
+        "total_reserved": 37958,
+        "budget": 122875,
+        "seconds": 169.37124466896057,
+        "sample_id": "sample-006"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 30290,
+        "output_reserve": 9000,
+        "reserved_tokens": 39290,
+        "active": 2,
+        "total_reserved": 77248,
+        "budget": 122875,
+        "wait_seconds": 26.696709631942213,
+        "seconds": 169.37160086631775,
+        "sample_id": "sample-010"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 21061,
+        "output_reserve": 9000,
+        "reserved_tokens": 30061,
+        "active": 3,
+        "total_reserved": 107309,
+        "budget": 122875,
+        "wait_seconds": 15.110900669940747,
+        "seconds": 169.37177300453186,
+        "sample_id": "sample-011"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 69351,
+        "budget": 122875,
+        "seconds": 190.6181285381317,
+        "sample_id": "sample-009"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 21205,
+        "output_reserve": 9000,
+        "reserved_tokens": 30205,
+        "active": 3,
+        "total_reserved": 99556,
+        "budget": 122875,
+        "wait_seconds": 21.24698075593915,
+        "seconds": 190.6184995174408,
+        "sample_id": "sample-012"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 69495,
+        "budget": 122875,
+        "seconds": 227.00991463661194,
+        "sample_id": "sample-011"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 23061,
+        "output_reserve": 9000,
+        "reserved_tokens": 32061,
+        "active": 3,
+        "total_reserved": 101556,
+        "budget": 122875,
+        "wait_seconds": 36.39178032509517,
+        "seconds": 227.01024651527405,
+        "sample_id": "sample-013"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 62266,
+        "budget": 122875,
+        "seconds": 232.04864621162415,
+        "sample_id": "sample-010"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 23337,
+        "output_reserve": 9000,
+        "reserved_tokens": 32337,
+        "active": 3,
+        "total_reserved": 94603,
+        "budget": 122875,
+        "wait_seconds": 5.038790520047769,
+        "seconds": 232.04900789260864,
+        "sample_id": "sample-014"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 64398,
+        "budget": 122875,
+        "seconds": 249.71051502227783,
+        "sample_id": "sample-012"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 20492,
+        "output_reserve": 9000,
+        "reserved_tokens": 29492,
+        "active": 3,
+        "total_reserved": 93890,
+        "budget": 122875,
+        "wait_seconds": 17.66199465910904,
+        "seconds": 249.71095442771912,
+        "sample_id": "sample-015"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 61829,
+        "budget": 122875,
+        "seconds": 281.15050983428955,
+        "sample_id": "sample-013"
+      },
+      {
+        "event": "release",
+        "active": 1,
+        "total_reserved": 29492,
+        "budget": 122875,
+        "seconds": 298.9938144683838,
+        "sample_id": "sample-014"
+      },
+      {
+        "event": "release",
+        "active": 0,
+        "total_reserved": 0,
+        "budget": 122875,
+        "seconds": 315.1102819442749,
+        "sample_id": "sample-015"
+      }
+    ]
+  },
+  {
+    "name": "budget90-r3",
+    "events": [
+      {
+        "event": "admit",
+        "prompt_tokens": 30960,
+        "output_reserve": 9000,
+        "reserved_tokens": 39960,
+        "active": 1,
+        "total_reserved": 39960,
+        "budget": 122875,
+        "wait_seconds": 0.0006605529924854636,
+        "seconds": 0.0,
+        "sample_id": "sample-001"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 30956,
+        "output_reserve": 9000,
+        "reserved_tokens": 39956,
+        "active": 2,
+        "total_reserved": 79916,
+        "budget": 122875,
+        "wait_seconds": 0.00045322999358177185,
+        "seconds": 0.0005793571472167969,
+        "sample_id": "sample-002"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 32251,
+        "output_reserve": 9000,
+        "reserved_tokens": 41251,
+        "active": 3,
+        "total_reserved": 121167,
+        "budget": 122875,
+        "wait_seconds": 0.000384113984182477,
+        "seconds": 0.0008623600006103516,
+        "sample_id": "sample-003"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 81207,
+        "budget": 122875,
+        "seconds": 43.56649112701416,
+        "sample_id": "sample-001"
+      },
+      {
+        "event": "release",
+        "active": 1,
+        "total_reserved": 39956,
+        "budget": 122875,
+        "seconds": 48.416271448135376,
+        "sample_id": "sample-003"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 35048,
+        "output_reserve": 9000,
+        "reserved_tokens": 44048,
+        "active": 2,
+        "total_reserved": 84004,
+        "budget": 122875,
+        "wait_seconds": 48.41566075198352,
+        "seconds": 48.4164674282074,
+        "sample_id": "sample-004"
+      },
+      {
+        "event": "release",
+        "active": 1,
+        "total_reserved": 44048,
+        "budget": 122875,
+        "seconds": 49.61967444419861,
+        "sample_id": "sample-002"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 31568,
+        "output_reserve": 9000,
+        "reserved_tokens": 40568,
+        "active": 2,
+        "total_reserved": 84616,
+        "budget": 122875,
+        "wait_seconds": 6.0532605410553515,
+        "seconds": 49.619903326034546,
+        "sample_id": "sample-005"
+      },
+      {
+        "event": "release",
+        "active": 1,
+        "total_reserved": 40568,
+        "budget": 122875,
+        "seconds": 91.41671919822693,
+        "sample_id": "sample-004"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 37321,
+        "output_reserve": 9000,
+        "reserved_tokens": 46321,
+        "active": 2,
+        "total_reserved": 86889,
+        "budget": 122875,
+        "wait_seconds": 43.00066591100767,
+        "seconds": 91.41710042953491,
+        "sample_id": "sample-006"
+      },
+      {
+        "event": "release",
+        "active": 1,
+        "total_reserved": 46321,
+        "budget": 122875,
+        "seconds": 92.08489918708801,
+        "sample_id": "sample-005"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 28886,
+        "output_reserve": 9000,
+        "reserved_tokens": 37886,
+        "active": 2,
+        "total_reserved": 84207,
+        "budget": 122875,
+        "wait_seconds": 42.46535339998081,
+        "seconds": 92.08520221710205,
+        "sample_id": "sample-007"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 24066,
+        "output_reserve": 9000,
+        "reserved_tokens": 33066,
+        "active": 3,
+        "total_reserved": 117273,
+        "budget": 122875,
+        "wait_seconds": 0.6683218670077622,
+        "seconds": 92.08526992797852,
+        "sample_id": "sample-008"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 84207,
+        "budget": 122875,
+        "seconds": 142.063969373703,
+        "sample_id": "sample-008"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 28958,
+        "output_reserve": 9000,
+        "reserved_tokens": 37958,
+        "active": 3,
+        "total_reserved": 122165,
+        "budget": 122875,
+        "wait_seconds": 49.979140065959655,
+        "seconds": 142.06427693367004,
+        "sample_id": "sample-009"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 84279,
+        "budget": 122875,
+        "seconds": 153.64082956314087,
+        "sample_id": "sample-007"
+      },
+      {
+        "event": "release",
+        "active": 1,
+        "total_reserved": 37958,
+        "budget": 122875,
+        "seconds": 171.4022192955017,
+        "sample_id": "sample-006"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 30290,
+        "output_reserve": 9000,
+        "reserved_tokens": 39290,
+        "active": 2,
+        "total_reserved": 77248,
+        "budget": 122875,
+        "wait_seconds": 29.338453544070944,
+        "seconds": 171.40269541740417,
+        "sample_id": "sample-010"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 21061,
+        "output_reserve": 9000,
+        "reserved_tokens": 30061,
+        "active": 3,
+        "total_reserved": 107309,
+        "budget": 122875,
+        "wait_seconds": 17.761683574994095,
+        "seconds": 171.40280151367188,
+        "sample_id": "sample-011"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 69351,
+        "budget": 122875,
+        "seconds": 196.65345931053162,
+        "sample_id": "sample-009"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 21205,
+        "output_reserve": 9000,
+        "reserved_tokens": 30205,
+        "active": 3,
+        "total_reserved": 99556,
+        "budget": 122875,
+        "wait_seconds": 25.251277022995055,
+        "seconds": 196.6537642478943,
+        "sample_id": "sample-012"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 69495,
+        "budget": 122875,
+        "seconds": 221.4828803539276,
+        "sample_id": "sample-011"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 23061,
+        "output_reserve": 9000,
+        "reserved_tokens": 32061,
+        "active": 3,
+        "total_reserved": 101556,
+        "budget": 122875,
+        "wait_seconds": 24.829622804070823,
+        "seconds": 221.4833550453186,
+        "sample_id": "sample-013"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 62266,
+        "budget": 122875,
+        "seconds": 234.01468539237976,
+        "sample_id": "sample-010"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 23337,
+        "output_reserve": 9000,
+        "reserved_tokens": 32337,
+        "active": 3,
+        "total_reserved": 94603,
+        "budget": 122875,
+        "wait_seconds": 12.5318246249808,
+        "seconds": 234.01503205299377,
+        "sample_id": "sample-014"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 64398,
+        "budget": 122875,
+        "seconds": 263.2045040130615,
+        "sample_id": "sample-012"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 20492,
+        "output_reserve": 9000,
+        "reserved_tokens": 29492,
+        "active": 3,
+        "total_reserved": 93890,
+        "budget": 122875,
+        "wait_seconds": 29.189801246044226,
+        "seconds": 263.2048075199127,
+        "sample_id": "sample-015"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 61829,
+        "budget": 122875,
+        "seconds": 282.4479703903198,
+        "sample_id": "sample-013"
+      },
+      {
+        "event": "release",
+        "active": 1,
+        "total_reserved": 29492,
+        "budget": 122875,
+        "seconds": 293.3704733848572,
+        "sample_id": "sample-014"
+      },
+      {
+        "event": "release",
+        "active": 0,
+        "total_reserved": 0,
+        "budget": 122875,
+        "seconds": 311.69886016845703,
+        "sample_id": "sample-015"
+      }
+    ]
+  },
+  {
+    "name": "budget95-r1",
+    "events": [
+      {
+        "event": "admit",
+        "prompt_tokens": 30960,
+        "output_reserve": 9000,
+        "reserved_tokens": 39960,
+        "active": 1,
+        "total_reserved": 39960,
+        "budget": 129701,
+        "wait_seconds": 0.0005816579796373844,
+        "seconds": 0.0,
+        "sample_id": "sample-001"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 30956,
+        "output_reserve": 9000,
+        "reserved_tokens": 39956,
+        "active": 2,
+        "total_reserved": 79916,
+        "budget": 129701,
+        "wait_seconds": 0.0015165209770202637,
+        "seconds": 0.0012896060943603516,
+        "sample_id": "sample-002"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 32251,
+        "output_reserve": 9000,
+        "reserved_tokens": 41251,
+        "active": 3,
+        "total_reserved": 121167,
+        "budget": 129701,
+        "wait_seconds": 0.0007655479712411761,
+        "seconds": 0.0013649463653564453,
+        "sample_id": "sample-003"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 81211,
+        "budget": 129701,
+        "seconds": 46.12177491188049,
+        "sample_id": "sample-002"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 35048,
+        "output_reserve": 9000,
+        "reserved_tokens": 44048,
+        "active": 3,
+        "total_reserved": 125259,
+        "budget": 129701,
+        "wait_seconds": 46.1211190179456,
+        "seconds": 46.12198781967163,
+        "sample_id": "sample-004"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 84008,
+        "budget": 129701,
+        "seconds": 47.32517719268799,
+        "sample_id": "sample-003"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 31568,
+        "output_reserve": 9000,
+        "reserved_tokens": 40568,
+        "active": 3,
+        "total_reserved": 124576,
+        "budget": 129701,
+        "wait_seconds": 1.203446020022966,
+        "seconds": 47.32538890838623,
+        "sample_id": "sample-005"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 84616,
+        "budget": 129701,
+        "seconds": 48.43782019615173,
+        "sample_id": "sample-001"
+      },
+      {
+        "event": "release",
+        "active": 1,
+        "total_reserved": 40568,
+        "budget": 129701,
+        "seconds": 89.0886869430542,
+        "sample_id": "sample-004"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 37321,
+        "output_reserve": 9000,
+        "reserved_tokens": 46321,
+        "active": 2,
+        "total_reserved": 86889,
+        "budget": 129701,
+        "wait_seconds": 41.76375131600071,
+        "seconds": 89.08909797668457,
+        "sample_id": "sample-006"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 28886,
+        "output_reserve": 9000,
+        "reserved_tokens": 37886,
+        "active": 3,
+        "total_reserved": 124775,
+        "budget": 129701,
+        "wait_seconds": 40.651223202003166,
+        "seconds": 89.08923363685608,
+        "sample_id": "sample-007"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 84207,
+        "budget": 129701,
+        "seconds": 89.78868198394775,
+        "sample_id": "sample-005"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 24066,
+        "output_reserve": 9000,
+        "reserved_tokens": 33066,
+        "active": 3,
+        "total_reserved": 117273,
+        "budget": 129701,
+        "wait_seconds": 0.7002829249249771,
+        "seconds": 89.78916144371033,
+        "sample_id": "sample-008"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 79387,
+        "budget": 129701,
+        "seconds": 143.0904631614685,
+        "sample_id": "sample-007"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 28958,
+        "output_reserve": 9000,
+        "reserved_tokens": 37958,
+        "active": 3,
+        "total_reserved": 117345,
+        "budget": 129701,
+        "wait_seconds": 53.30185442697257,
+        "seconds": 143.09076404571533,
+        "sample_id": "sample-009"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 71024,
+        "budget": 129701,
+        "seconds": 150.33819580078125,
+        "sample_id": "sample-006"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 30290,
+        "output_reserve": 9000,
+        "reserved_tokens": 39290,
+        "active": 3,
+        "total_reserved": 110314,
+        "budget": 129701,
+        "wait_seconds": 7.247827652958222,
+        "seconds": 150.3385488986969,
+        "sample_id": "sample-010"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 77248,
+        "budget": 129701,
+        "seconds": 177.1792287826538,
+        "sample_id": "sample-008"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 21061,
+        "output_reserve": 9000,
+        "reserved_tokens": 30061,
+        "active": 3,
+        "total_reserved": 107309,
+        "budget": 129701,
+        "wait_seconds": 26.841826561954804,
+        "seconds": 177.18032693862915,
+        "sample_id": "sample-011"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 69351,
+        "budget": 129701,
+        "seconds": 187.50722908973694,
+        "sample_id": "sample-009"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 21205,
+        "output_reserve": 9000,
+        "reserved_tokens": 30205,
+        "active": 3,
+        "total_reserved": 99556,
+        "budget": 129701,
+        "wait_seconds": 10.327619572984986,
+        "seconds": 187.5075454711914,
+        "sample_id": "sample-012"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 60266,
+        "budget": 129701,
+        "seconds": 203.5709309577942,
+        "sample_id": "sample-010"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 23061,
+        "output_reserve": 9000,
+        "reserved_tokens": 32061,
+        "active": 3,
+        "total_reserved": 92327,
+        "budget": 129701,
+        "wait_seconds": 16.063725229003467,
+        "seconds": 203.57124066352844,
+        "sample_id": "sample-013"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 23337,
+        "output_reserve": 9000,
+        "reserved_tokens": 32337,
+        "active": 4,
+        "total_reserved": 124664,
+        "budget": 129701,
+        "wait_seconds": 0.0001330099767073989,
+        "seconds": 203.5713391304016,
+        "sample_id": "sample-014"
+      },
+      {
+        "event": "release",
+        "active": 3,
+        "total_reserved": 94603,
+        "budget": 129701,
+        "seconds": 227.03961086273193,
+        "sample_id": "sample-011"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 20492,
+        "output_reserve": 9000,
+        "reserved_tokens": 29492,
+        "active": 4,
+        "total_reserved": 124095,
+        "budget": 129701,
+        "wait_seconds": 0.00016782793682068586,
+        "seconds": 227.04010725021362,
+        "sample_id": "sample-015"
+      },
+      {
+        "event": "release",
+        "active": 3,
+        "total_reserved": 93890,
+        "budget": 129701,
+        "seconds": 241.3858621120453,
+        "sample_id": "sample-012"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 61829,
+        "budget": 129701,
+        "seconds": 265.5075340270996,
+        "sample_id": "sample-013"
+      },
+      {
+        "event": "release",
+        "active": 1,
+        "total_reserved": 29492,
+        "budget": 129701,
+        "seconds": 267.4791991710663,
+        "sample_id": "sample-014"
+      },
+      {
+        "event": "release",
+        "active": 0,
+        "total_reserved": 0,
+        "budget": 129701,
+        "seconds": 270.7048668861389,
+        "sample_id": "sample-015"
+      }
+    ]
+  },
+  {
+    "name": "budget95-r2",
+    "events": [
+      {
+        "event": "admit",
+        "prompt_tokens": 30960,
+        "output_reserve": 9000,
+        "reserved_tokens": 39960,
+        "active": 1,
+        "total_reserved": 39960,
+        "budget": 129701,
+        "wait_seconds": 0.0007721460424363613,
+        "seconds": 0.0,
+        "sample_id": "sample-001"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 30956,
+        "output_reserve": 9000,
+        "reserved_tokens": 39956,
+        "active": 2,
+        "total_reserved": 79916,
+        "budget": 129701,
+        "wait_seconds": 0.00029061606619507074,
+        "seconds": 0.00020551681518554688,
+        "sample_id": "sample-002"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 32251,
+        "output_reserve": 9000,
+        "reserved_tokens": 41251,
+        "active": 3,
+        "total_reserved": 121167,
+        "budget": 129701,
+        "wait_seconds": 0.0005050330655649304,
+        "seconds": 0.0008265972137451172,
+        "sample_id": "sample-003"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 81207,
+        "budget": 129701,
+        "seconds": 43.71479916572571,
+        "sample_id": "sample-001"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 35048,
+        "output_reserve": 9000,
+        "reserved_tokens": 44048,
+        "active": 3,
+        "total_reserved": 125255,
+        "budget": 129701,
+        "wait_seconds": 43.7144787569996,
+        "seconds": 43.71501803398132,
+        "sample_id": "sample-004"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 84004,
+        "budget": 129701,
+        "seconds": 54.224289894104004,
+        "sample_id": "sample-003"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 31568,
+        "output_reserve": 9000,
+        "reserved_tokens": 40568,
+        "active": 3,
+        "total_reserved": 124572,
+        "budget": 129701,
+        "wait_seconds": 10.509645126061514,
+        "seconds": 54.22462344169617,
+        "sample_id": "sample-005"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 84616,
+        "budget": 129701,
+        "seconds": 55.4644992351532,
+        "sample_id": "sample-002"
+      },
+      {
+        "event": "release",
+        "active": 1,
+        "total_reserved": 40568,
+        "budget": 129701,
+        "seconds": 83.47458243370056,
+        "sample_id": "sample-004"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 37321,
+        "output_reserve": 9000,
+        "reserved_tokens": 46321,
+        "active": 2,
+        "total_reserved": 86889,
+        "budget": 129701,
+        "wait_seconds": 29.250472626066767,
+        "seconds": 83.4749550819397,
+        "sample_id": "sample-006"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 28886,
+        "output_reserve": 9000,
+        "reserved_tokens": 37886,
+        "active": 3,
+        "total_reserved": 124775,
+        "budget": 129701,
+        "wait_seconds": 28.010358897969127,
+        "seconds": 83.47505283355713,
+        "sample_id": "sample-007"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 84207,
+        "budget": 129701,
+        "seconds": 117.7927918434143,
+        "sample_id": "sample-005"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 24066,
+        "output_reserve": 9000,
+        "reserved_tokens": 33066,
+        "active": 3,
+        "total_reserved": 117273,
+        "budget": 129701,
+        "wait_seconds": 34.31829749094322,
+        "seconds": 117.79308581352234,
+        "sample_id": "sample-008"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 79387,
+        "budget": 129701,
+        "seconds": 146.33695530891418,
+        "sample_id": "sample-007"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 28958,
+        "output_reserve": 9000,
+        "reserved_tokens": 37958,
+        "active": 3,
+        "total_reserved": 117345,
+        "budget": 129701,
+        "wait_seconds": 28.544233390013687,
+        "seconds": 146.33727502822876,
+        "sample_id": "sample-009"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 71024,
+        "budget": 129701,
+        "seconds": 153.6807200908661,
+        "sample_id": "sample-006"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 30290,
+        "output_reserve": 9000,
+        "reserved_tokens": 39290,
+        "active": 3,
+        "total_reserved": 110314,
+        "budget": 129701,
+        "wait_seconds": 7.343800690956414,
+        "seconds": 153.68103790283203,
+        "sample_id": "sample-010"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 77248,
+        "budget": 129701,
+        "seconds": 162.91960382461548,
+        "sample_id": "sample-008"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 21061,
+        "output_reserve": 9000,
+        "reserved_tokens": 30061,
+        "active": 3,
+        "total_reserved": 107309,
+        "budget": 129701,
+        "wait_seconds": 9.239009979995899,
+        "seconds": 162.92000532150269,
+        "sample_id": "sample-011"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 69351,
+        "budget": 129701,
+        "seconds": 190.50185871124268,
+        "sample_id": "sample-009"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 21205,
+        "output_reserve": 9000,
+        "reserved_tokens": 30205,
+        "active": 3,
+        "total_reserved": 99556,
+        "budget": 129701,
+        "wait_seconds": 27.582285220036283,
+        "seconds": 190.5021562576294,
+        "sample_id": "sample-012"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 60266,
+        "budget": 129701,
+        "seconds": 206.27991104125977,
+        "sample_id": "sample-010"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 23061,
+        "output_reserve": 9000,
+        "reserved_tokens": 32061,
+        "active": 3,
+        "total_reserved": 92327,
+        "budget": 129701,
+        "wait_seconds": 15.77824783604592,
+        "seconds": 206.28036403656006,
+        "sample_id": "sample-013"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 23337,
+        "output_reserve": 9000,
+        "reserved_tokens": 32337,
+        "active": 4,
+        "total_reserved": 124664,
+        "budget": 129701,
+        "wait_seconds": 0.00023412203881889582,
+        "seconds": 206.28045439720154,
+        "sample_id": "sample-014"
+      },
+      {
+        "event": "release",
+        "active": 3,
+        "total_reserved": 94603,
+        "budget": 129701,
+        "seconds": 207.14644813537598,
+        "sample_id": "sample-011"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 20492,
+        "output_reserve": 9000,
+        "reserved_tokens": 29492,
+        "active": 4,
+        "total_reserved": 124095,
+        "budget": 129701,
+        "wait_seconds": 0.0001907910918816924,
+        "seconds": 207.14693427085876,
+        "sample_id": "sample-015"
+      },
+      {
+        "event": "release",
+        "active": 3,
+        "total_reserved": 93890,
+        "budget": 129701,
+        "seconds": 255.64859056472778,
+        "sample_id": "sample-012"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 61553,
+        "budget": 129701,
+        "seconds": 256.4767518043518,
+        "sample_id": "sample-014"
+      },
+      {
+        "event": "release",
+        "active": 1,
+        "total_reserved": 32061,
+        "budget": 129701,
+        "seconds": 261.9383988380432,
+        "sample_id": "sample-015"
+      },
+      {
+        "event": "release",
+        "active": 0,
+        "total_reserved": 0,
+        "budget": 129701,
+        "seconds": 270.9037914276123,
+        "sample_id": "sample-013"
+      }
+    ]
+  },
+  {
+    "name": "budget95-r3",
+    "events": [
+      {
+        "event": "admit",
+        "prompt_tokens": 30960,
+        "output_reserve": 9000,
+        "reserved_tokens": 39960,
+        "active": 1,
+        "total_reserved": 39960,
+        "budget": 129701,
+        "wait_seconds": 0.0003264759434387088,
+        "seconds": 0.0,
+        "sample_id": "sample-001"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 30956,
+        "output_reserve": 9000,
+        "reserved_tokens": 39956,
+        "active": 2,
+        "total_reserved": 79916,
+        "budget": 129701,
+        "wait_seconds": 0.00048230995889753103,
+        "seconds": 0.0003991127014160156,
+        "sample_id": "sample-002"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 32251,
+        "output_reserve": 9000,
+        "reserved_tokens": 41251,
+        "active": 3,
+        "total_reserved": 121167,
+        "budget": 129701,
+        "wait_seconds": 0.0006890218937769532,
+        "seconds": 0.001168966293334961,
+        "sample_id": "sample-003"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 81207,
+        "budget": 129701,
+        "seconds": 46.111873388290405,
+        "sample_id": "sample-001"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 35048,
+        "output_reserve": 9000,
+        "reserved_tokens": 44048,
+        "active": 3,
+        "total_reserved": 125255,
+        "budget": 129701,
+        "wait_seconds": 46.11053077003453,
+        "seconds": 46.11207365989685,
+        "sample_id": "sample-004"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 84004,
+        "budget": 129701,
+        "seconds": 56.51057577133179,
+        "sample_id": "sample-003"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 31568,
+        "output_reserve": 9000,
+        "reserved_tokens": 40568,
+        "active": 3,
+        "total_reserved": 124572,
+        "budget": 129701,
+        "wait_seconds": 10.398762644967064,
+        "seconds": 56.51079559326172,
+        "sample_id": "sample-005"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 84616,
+        "budget": 129701,
+        "seconds": 58.380398750305176,
+        "sample_id": "sample-002"
+      },
+      {
+        "event": "release",
+        "active": 1,
+        "total_reserved": 40568,
+        "budget": 129701,
+        "seconds": 89.20286655426025,
+        "sample_id": "sample-004"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 37321,
+        "output_reserve": 9000,
+        "reserved_tokens": 46321,
+        "active": 2,
+        "total_reserved": 86889,
+        "budget": 129701,
+        "wait_seconds": 32.692719390033744,
+        "seconds": 89.20348381996155,
+        "sample_id": "sample-006"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 28886,
+        "output_reserve": 9000,
+        "reserved_tokens": 37886,
+        "active": 3,
+        "total_reserved": 124775,
+        "budget": 129701,
+        "wait_seconds": 30.822886098991148,
+        "seconds": 89.20365190505981,
+        "sample_id": "sample-007"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 84207,
+        "budget": 129701,
+        "seconds": 119.29744005203247,
+        "sample_id": "sample-005"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 24066,
+        "output_reserve": 9000,
+        "reserved_tokens": 33066,
+        "active": 3,
+        "total_reserved": 117273,
+        "budget": 129701,
+        "wait_seconds": 30.094968704972416,
+        "seconds": 119.29808354377747,
+        "sample_id": "sample-008"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 79387,
+        "budget": 129701,
+        "seconds": 138.66554284095764,
+        "sample_id": "sample-007"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 28958,
+        "output_reserve": 9000,
+        "reserved_tokens": 37958,
+        "active": 3,
+        "total_reserved": 117345,
+        "budget": 129701,
+        "wait_seconds": 19.368107066024095,
+        "seconds": 138.66591024398804,
+        "sample_id": "sample-009"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 71024,
+        "budget": 129701,
+        "seconds": 146.9574954509735,
+        "sample_id": "sample-006"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 30290,
+        "output_reserve": 9000,
+        "reserved_tokens": 39290,
+        "active": 3,
+        "total_reserved": 110314,
+        "budget": 129701,
+        "wait_seconds": 8.292069096933119,
+        "seconds": 146.957927942276,
+        "sample_id": "sample-010"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 71024,
+        "budget": 129701,
+        "seconds": 186.80588173866272,
+        "sample_id": "sample-010"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 21061,
+        "output_reserve": 9000,
+        "reserved_tokens": 30061,
+        "active": 3,
+        "total_reserved": 101085,
+        "budget": 129701,
+        "wait_seconds": 39.84890414401889,
+        "seconds": 186.80677604675293,
+        "sample_id": "sample-011"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 63127,
+        "budget": 129701,
+        "seconds": 188.05900311470032,
+        "sample_id": "sample-009"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 21205,
+        "output_reserve": 9000,
+        "reserved_tokens": 30205,
+        "active": 3,
+        "total_reserved": 93332,
+        "budget": 129701,
+        "wait_seconds": 1.2536992519162595,
+        "seconds": 188.06005859375,
+        "sample_id": "sample-012"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 23061,
+        "output_reserve": 9000,
+        "reserved_tokens": 32061,
+        "active": 4,
+        "total_reserved": 125393,
+        "budget": 129701,
+        "wait_seconds": 0.0007892550202086568,
+        "seconds": 188.06013178825378,
+        "sample_id": "sample-013"
+      },
+      {
+        "event": "release",
+        "active": 3,
+        "total_reserved": 92327,
+        "budget": 129701,
+        "seconds": 200.37222814559937,
+        "sample_id": "sample-008"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 23337,
+        "output_reserve": 9000,
+        "reserved_tokens": 32337,
+        "active": 4,
+        "total_reserved": 124664,
+        "budget": 129701,
+        "wait_seconds": 0.00019257399253547192,
+        "seconds": 200.37274026870728,
+        "sample_id": "sample-014"
+      },
+      {
+        "event": "release",
+        "active": 3,
+        "total_reserved": 92603,
+        "budget": 129701,
+        "seconds": 243.4576244354248,
+        "sample_id": "sample-013"
+      },
+      {
+        "event": "admit",
+        "prompt_tokens": 20492,
+        "output_reserve": 9000,
+        "reserved_tokens": 29492,
+        "active": 4,
+        "total_reserved": 122095,
+        "budget": 129701,
+        "wait_seconds": 9.627500548958778e-05,
+        "seconds": 243.4582371711731,
+        "sample_id": "sample-015"
+      },
+      {
+        "event": "release",
+        "active": 3,
+        "total_reserved": 91890,
+        "budget": 129701,
+        "seconds": 252.67114901542664,
+        "sample_id": "sample-012"
+      },
+      {
+        "event": "release",
+        "active": 2,
+        "total_reserved": 61829,
+        "budget": 129701,
+        "seconds": 258.34604358673096,
+        "sample_id": "sample-011"
+      },
+      {
+        "event": "release",
+        "active": 1,
+        "total_reserved": 32337,
+        "budget": 129701,
+        "seconds": 284.1538255214691,
+        "sample_id": "sample-015"
+      },
+      {
+        "event": "release",
+        "active": 0,
+        "total_reserved": 0,
+        "budget": 129701,
+        "seconds": 313.55719351768494,
+        "sample_id": "sample-014"
+      }
+    ]
+  }
+]

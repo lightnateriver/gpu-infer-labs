@@ -14,3 +14,7 @@
 N3 比 control 同时扩大了 graph capture sizes；N5 capture=[1,2,4,6,12,24]、max=24，与 N3 的 [1,2,4,8,16] 不同；N5 时间晚于 N3，非交错实验。原模型 fingerprint 是继承的已有指纹，不是这里重新全量校验 checkpoint 的记录。
 
 [独立报告](../report/readme.md) · [方法与结论](../readme.md)
+
+## 后续多 FULL Graph / KV 更新（2026-10-21）
+
+[当前方案](../../native-ngram3-multifull-kv6p5-tp1-c4/readme.md)：TP1/C4、Thinking计入、3.575有效条/分钟，完整轮310.22TPS/卡中位数、45/45完整、零抢占；相对其本轮C4基线+10.33%。本目录的历史结果和代码保留，新实验输出上限/测量协议不同，不能跨报告直接归因，也未证明Caption语义精度无损。

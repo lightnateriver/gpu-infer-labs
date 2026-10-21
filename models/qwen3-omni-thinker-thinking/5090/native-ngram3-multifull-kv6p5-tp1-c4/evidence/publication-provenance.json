@@ -1,0 +1,60 @@
+{
+  "core_files": [
+    {
+      "file": "runtime/caption_worker.py",
+      "sha256": "b79e5399613af65a60520b1160d2573013559856eeec96d9ebdbdeddd9b10654",
+      "source_sha256": "b79e5399613af65a60520b1160d2573013559856eeec96d9ebdbdeddd9b10654"
+    },
+    {
+      "file": "runtime/kv_audit_worker.py",
+      "sha256": "300cff8c1f57810e6ff9809b6a7d799227832c74d5ea463baf8b28c6e25c31d6",
+      "source_sha256": "300cff8c1f57810e6ff9809b6a7d799227832c74d5ea463baf8b28c6e25c31d6"
+    },
+    {
+      "file": "runtime/memory_worker.py",
+      "sha256": "5d12f479636f06bf3e8db02552b6f222b0c4c9f089dec46f5a7dbabb78f95abd",
+      "source_sha256": "5d12f479636f06bf3e8db02552b6f222b0c4c9f089dec46f5a7dbabb78f95abd"
+    },
+    {
+      "file": "runtime/mixed_fp8_worker.py",
+      "sha256": "2404e1ff53fead75c37310a0a5405858718d3622e096d6ecdeb5a3492fe4f75b",
+      "source_sha256": "2404e1ff53fead75c37310a0a5405858718d3622e096d6ecdeb5a3492fe4f75b"
+    },
+    {
+      "file": "runtime/multigraph_worker.py",
+      "sha256": "b6de74a1bc030ded1def8e918171d281d883210d862d4e0c5df173cc2db96f64",
+      "source_sha256": "b6de74a1bc030ded1def8e918171d281d883210d862d4e0c5df173cc2db96f64"
+    },
+    {
+      "file": "runtime/native_worker.py",
+      "sha256": "5665c9e609983a09da84b60e2807e0828c2ba0a87c03c8564a43d21e49a5ee8a",
+      "source_sha256": "5665c9e609983a09da84b60e2807e0828c2ba0a87c03c8564a43d21e49a5ee8a"
+    },
+    {
+      "file": "benchmark/bench_caption.py",
+      "sha256": "173c6a229f9c86934fcf9572bbe5b2af658a3ccb5f67999e2e851f13d307ff6d",
+      "source_sha256": "173c6a229f9c86934fcf9572bbe5b2af658a3ccb5f67999e2e851f13d307ff6d"
+    },
+    {
+      "file": "benchmark/bench_fixed.py",
+      "sha256": "89714105ea8b96a64c4ad0fabbf32d013ab6888eec9f36fe5a687a3d95b6ad3f",
+      "source_sha256": "89714105ea8b96a64c4ad0fabbf32d013ab6888eec9f36fe5a687a3d95b6ad3f"
+    },
+    {
+      "file": "benchmark/native_adapter.py",
+      "sha256": "c9c471ff6d902e84820317190ba252d088d7d0e4b5e4195e0c138dadc7849dfb",
+      "source_sha256": "c9c471ff6d902e84820317190ba252d088d7d0e4b5e4195e0c138dadc7849dfb"
+    },
+    {
+      "file": "benchmark/admission.py",
+      "sha256": "b425b1544988c373c500c4ea4f9e78b9c7c66f204759face5cbe9eeabd4dfecf",
+      "source_sha256": "b425b1544988c373c500c4ea4f9e78b9c7c66f204759face5cbe9eeabd4dfecf"
+    }
+  ],
+  "core_lf_text_identical": true,
+  "publication_gpu_rerun": false,
+  "portable_wrappers": "New wrappers for paths, service receipts and measurement orchestration; not GPU-retested for publication.",
+  "benchmark_common": "Reuse public receipt-only native adapter, ignored local lock and caller-supplied API key.",
+  "numerical_graph_checks_are_not_semantic_caption_accuracy": true,
+  "raw_internal_evidence_not_published": true
+}

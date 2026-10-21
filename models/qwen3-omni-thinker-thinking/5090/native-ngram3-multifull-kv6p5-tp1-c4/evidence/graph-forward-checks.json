@@ -1,0 +1,5614 @@
+[
+  {
+    "phase": "chunk2048-warmup",
+    "checks": [
+      {
+        "step": 57,
+        "query_shape": [
+          1,
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 58,
+        "query_shape": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              4,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 59,
+        "query_shape": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              4,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 67,
+        "query_shape": [
+          1,
+          4,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 71,
+        "query_shape": [
+          1,
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 73,
+        "query_shape": [
+          1,
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 82,
+        "query_shape": [
+          1,
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 84,
+        "query_shape": [
+          4,
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 85,
+        "query_shape": [
+          4,
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 88,
+        "query_shape": [
+          1,
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 94,
+        "query_shape": [
+          1,
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 105,
+        "query_shape": [
+          4,
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 113,
+        "query_shape": [
+          4,
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 155,
+        "query_shape": [
+          1,
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 161,
+        "query_shape": [
+          1,
+          4,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 162,
+        "query_shape": [
+          1,
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 175,
+        "query_shape": [
+          4,
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 184,
+        "query_shape": [
+          1,
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 187,
+        "query_shape": [
+          4,
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 190,
+        "query_shape": [
+          1,
+          4,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 228,
+        "query_shape": [
+          4,
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 231,
+        "query_shape": [
+          4,
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 233,
+        "query_shape": [
+          1,
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 286,
+        "query_shape": [
+          4,
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 288,
+        "query_shape": [
+          4,
+          4,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 388,
+        "query_shape": [
+          1,
+          4,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 396,
+        "query_shape": [
+          4,
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 468,
+        "query_shape": [
+          4,
+          4,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 605,
+        "query_shape": [
+          4,
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 741,
+        "query_shape": [
+          4,
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2509,
+        "query_shape": [
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              9,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2510,
+        "query_shape": [
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              9,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2511,
+        "query_shape": [
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              6,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2512,
+        "query_shape": [
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              6,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2513,
+        "query_shape": [
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              3,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2534,
+        "query_shape": [
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              9,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2542,
+        "query_shape": [
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              9,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2544,
+        "query_shape": [
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              5,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2545,
+        "query_shape": [
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              5,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2555,
+        "query_shape": [
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              2,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2576,
+        "query_shape": [
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              5,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2600,
+        "query_shape": [
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              1,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2601,
+        "query_shape": [
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              1,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      }
+    ]
+  },
+  {
+    "phase": "final-runtime-check",
+    "checks": [
+      {
+        "step": 30,
+        "query_shape": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              4,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 31,
+        "query_shape": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              4,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 32,
+        "query_shape": [
+          4,
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 33,
+        "query_shape": [
+          4,
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 40,
+        "query_shape": [
+          1,
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 41,
+        "query_shape": [
+          1,
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 48,
+        "query_shape": [
+          1,
+          4,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 54,
+        "query_shape": [
+          1,
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 55,
+        "query_shape": [
+          1,
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 61,
+        "query_shape": [
+          1,
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 69,
+        "query_shape": [
+          1,
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 101,
+        "query_shape": [
+          1,
+          4,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 110,
+        "query_shape": [
+          4,
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 111,
+        "query_shape": [
+          4,
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 142,
+        "query_shape": [
+          1,
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 143,
+        "query_shape": [
+          1,
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 205,
+        "query_shape": [
+          4,
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 225,
+        "query_shape": [
+          1,
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 260,
+        "query_shape": [
+          1,
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 289,
+        "query_shape": [
+          4,
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 317,
+        "query_shape": [
+          4,
+          4,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 318,
+        "query_shape": [
+          4,
+          4,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 319,
+        "query_shape": [
+          4,
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 335,
+        "query_shape": [
+          4,
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 338,
+        "query_shape": [
+          1,
+          4,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 339,
+        "query_shape": [
+          1,
+          4,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 384,
+        "query_shape": [
+          4,
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 409,
+        "query_shape": [
+          4,
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 427,
+        "query_shape": [
+          4,
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 559,
+        "query_shape": [
+          4,
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2649,
+        "query_shape": [
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              6,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2650,
+        "query_shape": [
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              6,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2651,
+        "query_shape": [
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              6,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2655,
+        "query_shape": [
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              3,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2656,
+        "query_shape": [
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              3,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2658,
+        "query_shape": [
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              9,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2664,
+        "query_shape": [
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              6,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2665,
+        "query_shape": [
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              2,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2666,
+        "query_shape": [
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              2,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2672,
+        "query_shape": [
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              5,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2673,
+        "query_shape": [
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              5,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2696,
+        "query_shape": [
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              5,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2742,
+        "query_shape": [
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              5,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2779,
+        "query_shape": [
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              1,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2780,
+        "query_shape": [
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              1,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      }
+    ]
+  },
+  {
+    "phase": "kv6p5-warmup",
+    "checks": [
+      {
+        "step": 30,
+        "query_shape": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              4,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 31,
+        "query_shape": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              4,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 32,
+        "query_shape": [
+          4,
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 33,
+        "query_shape": [
+          4,
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 40,
+        "query_shape": [
+          1,
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 41,
+        "query_shape": [
+          1,
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 48,
+        "query_shape": [
+          1,
+          4,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 55,
+        "query_shape": [
+          1,
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 61,
+        "query_shape": [
+          1,
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 76,
+        "query_shape": [
+          1,
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 78,
+        "query_shape": [
+          4,
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 108,
+        "query_shape": [
+          1,
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 161,
+        "query_shape": [
+          1,
+          4,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 163,
+        "query_shape": [
+          4,
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 189,
+        "query_shape": [
+          1,
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 220,
+        "query_shape": [
+          4,
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 225,
+        "query_shape": [
+          4,
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 226,
+        "query_shape": [
+          4,
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 230,
+        "query_shape": [
+          4,
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 236,
+        "query_shape": [
+          1,
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 260,
+        "query_shape": [
+          1,
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 263,
+        "query_shape": [
+          1,
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 274,
+        "query_shape": [
+          4,
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 290,
+        "query_shape": [
+          4,
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 419,
+        "query_shape": [
+          4,
+          4,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 425,
+        "query_shape": [
+          4,
+          4,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 534,
+        "query_shape": [
+          4,
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 548,
+        "query_shape": [
+          1,
+          4,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 569,
+        "query_shape": [
+          1,
+          4,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 858,
+        "query_shape": [
+          4,
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2522,
+        "query_shape": [
+          4,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              9,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2523,
+        "query_shape": [
+          4,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              9,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2544,
+        "query_shape": [
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              6,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2545,
+        "query_shape": [
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              6,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2556,
+        "query_shape": [
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              9,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2557,
+        "query_shape": [
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              9,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2558,
+        "query_shape": [
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              6,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2559,
+        "query_shape": [
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              9,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2560,
+        "query_shape": [
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              9,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2652,
+        "query_shape": [
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              6,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2653,
+        "query_shape": [
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              6,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2682,
+        "query_shape": [
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              3,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2683,
+        "query_shape": [
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              3,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2703,
+        "query_shape": [
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              6,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2709,
+        "query_shape": [
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              5,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2710,
+        "query_shape": [
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              5,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2719,
+        "query_shape": [
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              1,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2720,
+        "query_shape": [
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              1,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      }
+    ]
+  },
+  {
+    "phase": "kv6p75-warmup",
+    "checks": [
+      {
+        "step": 29,
+        "query_shape": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              4,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 30,
+        "query_shape": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              4,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 32,
+        "query_shape": [
+          4,
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 38,
+        "query_shape": [
+          4,
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 39,
+        "query_shape": [
+          1,
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 40,
+        "query_shape": [
+          1,
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 47,
+        "query_shape": [
+          1,
+          4,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 53,
+        "query_shape": [
+          1,
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 54,
+        "query_shape": [
+          1,
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 60,
+        "query_shape": [
+          1,
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 68,
+        "query_shape": [
+          1,
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 114,
+        "query_shape": [
+          4,
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 117,
+        "query_shape": [
+          4,
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 146,
+        "query_shape": [
+          4,
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 176,
+        "query_shape": [
+          4,
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 187,
+        "query_shape": [
+          1,
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 190,
+        "query_shape": [
+          4,
+          4,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 197,
+        "query_shape": [
+          4,
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 198,
+        "query_shape": [
+          4,
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 214,
+        "query_shape": [
+          1,
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 215,
+        "query_shape": [
+          1,
+          4,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 218,
+        "query_shape": [
+          4,
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 224,
+        "query_shape": [
+          4,
+          4,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 225,
+        "query_shape": [
+          1,
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 230,
+        "query_shape": [
+          4,
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 245,
+        "query_shape": [
+          4,
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 282,
+        "query_shape": [
+          1,
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 367,
+        "query_shape": [
+          1,
+          4,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 502,
+        "query_shape": [
+          4,
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 636,
+        "query_shape": [
+          1,
+          4,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2425,
+        "query_shape": [
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              9,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2426,
+        "query_shape": [
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              9,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2427,
+        "query_shape": [
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              6,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2429,
+        "query_shape": [
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              9,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2430,
+        "query_shape": [
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              9,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2434,
+        "query_shape": [
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              6,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2445,
+        "query_shape": [
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              6,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2465,
+        "query_shape": [
+          4,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              9,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2466,
+        "query_shape": [
+          4,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              9,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2544,
+        "query_shape": [
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              3,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2545,
+        "query_shape": [
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              3,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2546,
+        "query_shape": [
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              6,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2549,
+        "query_shape": [
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              6,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2564,
+        "query_shape": [
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              6,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2585,
+        "query_shape": [
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              2,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2586,
+        "query_shape": [
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              2,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2588,
+        "query_shape": [
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              5,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2594,
+        "query_shape": [
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              5,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2595,
+        "query_shape": [
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              5,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2607,
+        "query_shape": [
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              5,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2800,
+        "query_shape": [
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              1,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      }
+    ]
+  },
+  {
+    "phase": "memory-diagnostic",
+    "checks": [
+      {
+        "step": 29,
+        "query_shape": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              4,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 30,
+        "query_shape": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              4,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 32,
+        "query_shape": [
+          4,
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 33,
+        "query_shape": [
+          4,
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 39,
+        "query_shape": [
+          1,
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 40,
+        "query_shape": [
+          1,
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 47,
+        "query_shape": [
+          1,
+          4,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 53,
+        "query_shape": [
+          1,
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 54,
+        "query_shape": [
+          1,
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 60,
+        "query_shape": [
+          1,
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 68,
+        "query_shape": [
+          1,
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 100,
+        "query_shape": [
+          4,
+          4,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 117,
+        "query_shape": [
+          4,
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 153,
+        "query_shape": [
+          4,
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 173,
+        "query_shape": [
+          1,
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 198,
+        "query_shape": [
+          4,
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 215,
+        "query_shape": [
+          4,
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 219,
+        "query_shape": [
+          4,
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 224,
+        "query_shape": [
+          1,
+          4,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 234,
+        "query_shape": [
+          1,
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 285,
+        "query_shape": [
+          4,
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 299,
+        "query_shape": [
+          1,
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 357,
+        "query_shape": [
+          1,
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 426,
+        "query_shape": [
+          4,
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 427,
+        "query_shape": [
+          4,
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 455,
+        "query_shape": [
+          4,
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 492,
+        "query_shape": [
+          4,
+          4,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 521,
+        "query_shape": [
+          4,
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 763,
+        "query_shape": [
+          1,
+          4,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 830,
+        "query_shape": [
+          1,
+          4,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2415,
+        "query_shape": [
+          4,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              9,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2416,
+        "query_shape": [
+          4,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              9,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2422,
+        "query_shape": [
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              6,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2423,
+        "query_shape": [
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              6,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2452,
+        "query_shape": [
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              9,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2461,
+        "query_shape": [
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              3,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2482,
+        "query_shape": [
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              6,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2483,
+        "query_shape": [
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              6,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2493,
+        "query_shape": [
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              3,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2519,
+        "query_shape": [
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              9,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2535,
+        "query_shape": [
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              9,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2546,
+        "query_shape": [
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              5,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2547,
+        "query_shape": [
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              5,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2548,
+        "query_shape": [
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              2,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2549,
+        "query_shape": [
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              5,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2552,
+        "query_shape": [
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              2,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2563,
+        "query_shape": [
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              1,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2564,
+        "query_shape": [
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              1,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 4019,
+        "query_shape": [
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              9,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 4085,
+        "query_shape": [
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              6,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 4087,
+        "query_shape": [
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              6,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 12644,
+        "query_shape": [
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              5,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      }
+    ]
+  },
+  {
+    "phase": "memory-probe-warmup",
+    "checks": [
+      {
+        "step": 29,
+        "query_shape": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              4,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 30,
+        "query_shape": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              4,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 32,
+        "query_shape": [
+          4,
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 33,
+        "query_shape": [
+          4,
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 39,
+        "query_shape": [
+          1,
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 40,
+        "query_shape": [
+          1,
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 47,
+        "query_shape": [
+          1,
+          4,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 53,
+        "query_shape": [
+          1,
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 54,
+        "query_shape": [
+          1,
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 60,
+        "query_shape": [
+          1,
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 68,
+        "query_shape": [
+          1,
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              7,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 100,
+        "query_shape": [
+          4,
+          4,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 117,
+        "query_shape": [
+          4,
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 153,
+        "query_shape": [
+          4,
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 173,
+        "query_shape": [
+          1,
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 198,
+        "query_shape": [
+          4,
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 215,
+        "query_shape": [
+          4,
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 219,
+        "query_shape": [
+          4,
+          1,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 224,
+        "query_shape": [
+          1,
+          4,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 234,
+        "query_shape": [
+          1,
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 285,
+        "query_shape": [
+          4,
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 299,
+        "query_shape": [
+          1,
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 357,
+        "query_shape": [
+          1,
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              10,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 426,
+        "query_shape": [
+          4,
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 427,
+        "query_shape": [
+          4,
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 455,
+        "query_shape": [
+          4,
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 492,
+        "query_shape": [
+          4,
+          4,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 521,
+        "query_shape": [
+          4,
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 763,
+        "query_shape": [
+          1,
+          4,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 830,
+        "query_shape": [
+          1,
+          4,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              13,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2415,
+        "query_shape": [
+          4,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              9,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2416,
+        "query_shape": [
+          4,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              9,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2422,
+        "query_shape": [
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              6,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2423,
+        "query_shape": [
+          1,
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              6,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2452,
+        "query_shape": [
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              9,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2461,
+        "query_shape": [
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              3,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2482,
+        "query_shape": [
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              6,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2483,
+        "query_shape": [
+          4,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              6,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2493,
+        "query_shape": [
+          1,
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              3,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2519,
+        "query_shape": [
+          4,
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              9,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2535,
+        "query_shape": [
+          1,
+          4,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              9,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2546,
+        "query_shape": [
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              5,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2547,
+        "query_shape": [
+          1,
+          4
+        ],
+        "tensors": [
+          {
+            "shape": [
+              5,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2548,
+        "query_shape": [
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              2,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2549,
+        "query_shape": [
+          4,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              5,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2552,
+        "query_shape": [
+          1,
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              2,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2563,
+        "query_shape": [
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              1,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      },
+      {
+        "step": 2564,
+        "query_shape": [
+          1
+        ],
+        "tensors": [
+          {
+            "shape": [
+              1,
+              2048
+            ],
+            "exact": true,
+            "max_abs": 0.0
+          }
+        ],
+        "exact_all": true
+      }
+    ]
+  }
+]
