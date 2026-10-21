@@ -7,3 +7,7 @@
 记录每条完整原文、Thinking、SSE、token IDs、时间戳、输入 SHA256/token 数、JSON 结构、GPU 进程归属和 API 请求计数。原始输出留在用户本地运行目录，公开证据仅含匿名数值。
 
 历史条件：RTX 5090 32 GiB × 1，vLLM/vLLM-Omni 0.30.0，C4，两轮各预热 1 + 正式 15；完整吞吐 3.023557 条/分钟。TTFT/TPOT/E2E 均含 Thinking；完整计时定义与优化配置见 [方案说明](../readme.md)。
+
+## 新增原生 n-gram 方案
+
+[原生 vLLM N3/K3 · TP1/C4](../../native-ngram3-async-fp8-tp1-c4/readme.md)：2026-10-21 两轮观测 **3.161 条/分钟、273.71 token/s/卡**，Thinking 计入；与原生无 n-gram 的对照及 N5 试验见新报告。该数值不是上文 Omni 配置的复测，也未证明稳定吞吐或语义精度优势。

@@ -12,3 +12,7 @@
 只发布 allowlist 数值与模型结构，不含内部地址、登录名、GPU UUID/PID、私有目录、原 sample 名、原 caption/prompt/media 或未经脱敏的压缩归档。协议完整不是人工语义精度。
 
 启动、测试及计时定义见 [方案说明](../readme.md)；[报告](../report/report.html) 为独立 HTML。
+
+## 新增原生 n-gram 方案
+
+[原生 vLLM N3/K3 · TP1/C4](../../native-ngram3-async-fp8-tp1-c4/readme.md)：2026-10-21 两轮观测 **3.161 条/分钟、273.71 token/s/卡**，Thinking 计入；与原生无 n-gram 的对照及 N5 试验见新报告。该数值不是上文 Omni 配置的复测，也未证明稳定吞吐或语义精度优势。

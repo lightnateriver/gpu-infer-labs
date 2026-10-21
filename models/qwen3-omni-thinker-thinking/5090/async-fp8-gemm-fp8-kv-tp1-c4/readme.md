@@ -125,3 +125,7 @@ python3 scripts/stop.py
 - JSON 结构正确、无截断与 Thinking 完整不等于 Caption 语义正确。**尚无已验收的人工语义精度结论，不宣称精度无损**。
 - 原核心 worker 与流式客户端来自实测代码；本目录新增路径参数化启动/测试封装，辅助模块移除了未使用的 Docker 后端，计时/请求算法保持不变。发布整理期间没有额外跑 GPU 实验。见 [代码适配记录](evidence/client-provenance.json)。
 - 不含机器地址、账号、密码、私有绝对路径、GPU UUID、PID、私有镜像来源、SSH key、API key、GitHub token 或原业务数据。权重、运行环境和数据需自行准备并遵守各自许可。
+
+## 新增原生 n-gram 方案
+
+[原生 vLLM N3/K3 · TP1/C4](../native-ngram3-async-fp8-tp1-c4/readme.md)：2026-10-21 两轮观测 **3.161 条/分钟、273.71 token/s/卡**，Thinking 计入；与原生无 n-gram 的对照及 N5 试验见新报告。该数值不是上文 Omni 配置的复测，也未证明稳定吞吐或语义精度优势。

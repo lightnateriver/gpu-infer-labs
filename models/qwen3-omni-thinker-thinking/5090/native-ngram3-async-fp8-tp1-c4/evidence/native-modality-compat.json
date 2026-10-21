@@ -1,0 +1,5 @@
+{
+  "purpose": "Preserve existing modality metadata when splitting DeepStack visual embeddings",
+  "source_sha256": "d97c5f8224edaca2a46c5c5f5acca6d1e33a023c8f6bfcf8456334920f368987",
+  "patched_sha256": "f58e9cf50269909a3e3d4ee2bf93eedaf789c77cfc7c00a42e9085793b4cf534"
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "variant": "control",
+    "round": 1,
+    "expected": 15,
+    "actual": 15,
+    "no_other_generation_requests": true,
+    "same_service_start": true
+  },
+  {
+    "variant": "control",
+    "round": 2,
+    "expected": 15,
+    "actual": 15,
+    "no_other_generation_requests": true,
+    "same_service_start": true
+  },
+  {
+    "variant": "ngram3",
+    "round": 1,
+    "expected": 15,
+    "actual": 15,
+    "no_other_generation_requests": true,
+    "same_service_start": true
+  },
+  {
+    "variant": "ngram3",
+    "round": 2,
+    "expected": 15,
+    "actual": 15,
+    "no_other_generation_requests": true,
+    "same_service_start": true
+  },
+  {
+    "variant": "ngram5",
+    "round": 1,
+    "expected": 15,
+    "actual": 15,
+    "no_other_generation_requests": true,
+    "same_service_start": true
+  },
+  {
+    "variant": "ngram5",
+    "round": 2,
+    "expected": 15,
+    "actual": 15,
+    "no_other_generation_requests": true,
+    "same_service_start": true
+  }
+]

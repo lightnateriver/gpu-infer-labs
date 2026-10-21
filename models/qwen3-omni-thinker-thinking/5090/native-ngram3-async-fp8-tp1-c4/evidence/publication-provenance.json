@@ -1,0 +1,48 @@
+{
+  "files": [
+    {
+      "file": "runtime/caption_worker.py",
+      "normalized_lf_sha256": "b79e5399613af65a60520b1160d2573013559856eeec96d9ebdbdeddd9b10654",
+      "source_normalized_lf_sha256": "b79e5399613af65a60520b1160d2573013559856eeec96d9ebdbdeddd9b10654",
+      "logic_unchanged": true
+    },
+    {
+      "file": "runtime/kv_audit_worker.py",
+      "normalized_lf_sha256": "300cff8c1f57810e6ff9809b6a7d799227832c74d5ea463baf8b28c6e25c31d6",
+      "source_normalized_lf_sha256": "300cff8c1f57810e6ff9809b6a7d799227832c74d5ea463baf8b28c6e25c31d6",
+      "logic_unchanged": true
+    },
+    {
+      "file": "runtime/mixed_fp8_worker.py",
+      "normalized_lf_sha256": "2404e1ff53fead75c37310a0a5405858718d3622e096d6ecdeb5a3492fe4f75b",
+      "source_normalized_lf_sha256": "2404e1ff53fead75c37310a0a5405858718d3622e096d6ecdeb5a3492fe4f75b",
+      "logic_unchanged": true
+    },
+    {
+      "file": "runtime/native_worker.py",
+      "normalized_lf_sha256": "5665c9e609983a09da84b60e2807e0828c2ba0a87c03c8564a43d21e49a5ee8a",
+      "source_normalized_lf_sha256": "5665c9e609983a09da84b60e2807e0828c2ba0a87c03c8564a43d21e49a5ee8a",
+      "logic_unchanged": true
+    },
+    {
+      "file": "benchmark/bench_caption.py",
+      "normalized_lf_sha256": "aa8be5f22bce2a8ad8848406bbe01f42daa85219f8797cbb6290923f4fb40422",
+      "source_normalized_lf_sha256": "aa8be5f22bce2a8ad8848406bbe01f42daa85219f8797cbb6290923f4fb40422",
+      "logic_unchanged": true
+    },
+    {
+      "file": "benchmark/native_adapter.py",
+      "normalized_lf_sha256": "c64b89b8139c81e641c8cdca9c00ce1af7821bc866e735e3145d4ae693e8f248",
+      "source_normalized_lf_sha256": "c64b89b8139c81e641c8cdca9c00ce1af7821bc866e735e3145d4ae693e8f248",
+      "logic_unchanged": true
+    }
+  ],
+  "gpu_rebenchmark_performed": false,
+  "wrappers": "New portable wrappers; static review only, not a newly measured deployment.",
+  "common_changes": [
+    "remove unused Docker backends and key extraction",
+    "local ignored lock location"
+  ],
+  "model_integrity": "Inherited model fingerprint supplied; no new full checkpoint SHA performed in N3/N5 runs.",
+  "raw_internal_evidence_not_published": true
+}

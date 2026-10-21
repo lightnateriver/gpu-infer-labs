@@ -24,3 +24,7 @@ manifest 为列表，字段合同见 example：sample_id、prepared_subdir、ref
 不要以新自动切分覆盖原 shot plan 后声称复现旧输入。获得有权限的原冻结准备目录可直接使用；不同数据可按合同自备最终 prompt/镜头表并计算哈希，但性能数值不直接对照本目录 3.024。
 
 原测试是 3 组各 5 条、视频约 12–15 秒、全部 3–5 参考图、同步音轨、2 fps。每轮输入 419,460 tokens。RTX 5090 TP1/C4、vLLM/vLLM-Omni 0.30.0；测试命令和完整指标见 [方案说明](../readme.md)。
+
+## 新增原生 n-gram 方案
+
+[原生 vLLM N3/K3 · TP1/C4](../../native-ngram3-async-fp8-tp1-c4/readme.md)：2026-10-21 两轮观测 **3.161 条/分钟、273.71 token/s/卡**，Thinking 计入；与原生无 n-gram 的对照及 N5 试验见新报告。该数值不是上文 Omni 配置的复测，也未证明稳定吞吐或语义精度优势。

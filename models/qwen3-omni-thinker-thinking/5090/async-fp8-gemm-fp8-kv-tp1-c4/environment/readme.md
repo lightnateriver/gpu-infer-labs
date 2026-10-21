@@ -13,3 +13,7 @@ python3 scripts/check_environment.py
 需要完整 CUDA 13 工具链（nvcc、头文件、可用运行库）、GCC 11 和 ffmpeg/ffprobe；只有 CUDA runtime 而缺少 nvcc 会导致 JIT 失败。依赖应从有权限的匹配 wheel 集合/环境准备，不能仅凭同版本号推断完整功能一致。
 
 启动/测试命令、FP8/Graph/async 配置以及历史 3.024 条/分钟结果见 [方案说明](../readme.md)。
+
+## 新增原生 n-gram 方案
+
+[原生 vLLM N3/K3 · TP1/C4](../../native-ngram3-async-fp8-tp1-c4/readme.md)：2026-10-21 两轮观测 **3.161 条/分钟、273.71 token/s/卡**，Thinking 计入；与原生无 n-gram 的对照及 N5 试验见新报告。该数值不是上文 Omni 配置的复测，也未证明稳定吞吐或语义精度优势。

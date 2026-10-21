@@ -1,0 +1,16 @@
+{
+  "model_class": "Qwen3OmniMoeThinkerForConditionalGeneration",
+  "model_module": "vllm.model_executor.models.qwen3_omni_moe_thinker",
+  "compiled_wrapper_class": "CUDAGraphWrapper",
+  "compiled_wrapper_module": "vllm.compilation.cuda_graph",
+  "runner_class": "GPUModelRunner",
+  "async_scheduling": true,
+  "scheduler_cls": "None",
+  "speculative": {
+    "method": "ngram_gpu",
+    "num_speculative_tokens": 3,
+    "prompt_lookup_min": 3,
+    "prompt_lookup_max": 3
+  },
+  "drafter_class": "NgramProposerGPU"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "file": "model_executor/models/qwen3_omni_moe_thinker.py",
+    "sha256": "0f44c586731ec7a589af4e58b1998f49ef17abf2907e70a66c0b338913e5fb81",
+    "bytes": 89724
+  },
+  {
+    "file": "model_executor/models/qwen2_5_omni_thinker.py",
+    "sha256": "228d0917e60949864adfb6cdbd11f9216b7887920797221128ecbf4249254146",
+    "bytes": 60106
+  },
+  {
+    "file": "v1/spec_decode/ngram_proposer_gpu.py",
+    "sha256": "6b304fb5a2b7a2e4b6ac05c90c49d228975a7b1f7d566dc1445f048992163b72",
+    "bytes": 25334
+  },
+  {
+    "file": "multimodal/utils.py",
+    "sha256": "646f79c583ae03b44e00cb7c3b8368f68470c507054e8bd6ee6730280f897772",
+    "bytes": 13412
+  },
+  {
+    "file": "config/speculative.py",
+    "sha256": "9c642a87264339c0dbc1d0b57330572149df0f9d5e16c6893b9895e50a619e19",
+    "bytes": 87011
+  },
+  {
+    "file": "config/vllm.py",
+    "sha256": "956b812e5a719bcbfa3a3958801361b38b9c928c96b8c073311bbb96376dfb7a",
+    "bytes": 151001
+  },
+  {
+    "file": "v1/worker/gpu_worker.py",
+    "sha256": "6994436e4547c0996ab555b3e814e8ccea26b650dfc1b378b97d640745309347",
+    "bytes": 65620
+  },
+  {
+    "file": "v1/worker/gpu_model_runner.py",
+    "sha256": "87c29d08c0bbf66993d8b984811e7325e35e6436242a773feb55ec88f16b2c51",
+    "bytes": 340999
+  }
+]

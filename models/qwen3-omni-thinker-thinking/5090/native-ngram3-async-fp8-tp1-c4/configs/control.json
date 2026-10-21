@@ -1,0 +1,54 @@
+{
+  "model": "/path/to/model",
+  "served_model_name": [
+    "qwen3-omni-thinking"
+  ],
+  "trust_remote_code": true,
+  "dtype": "bfloat16",
+  "host": "127.0.0.1",
+  "port": 8000,
+  "tensor_parallel_size": 1,
+  "distributed_executor_backend": "mp",
+  "max_num_seqs": 4,
+  "max_num_batched_tokens": 4096,
+  "max_model_len": 65536,
+  "enforce_eager": false,
+  "async_scheduling": true,
+  "moe_backend": "cutlass",
+  "enable_prefix_caching": false,
+  "mm_processor_cache_gb": 0,
+  "limit_mm_per_prompt": {
+    "image": 5,
+    "video": 1,
+    "audio": 1
+  },
+  "compilation_config": {
+    "mode": 3,
+    "cudagraph_mode": "FULL_AND_PIECEWISE",
+    "custom_ops": [
+      "+rotary_embedding"
+    ],
+    "cudagraph_capture_sizes": [
+      1,
+      2,
+      4
+    ],
+    "max_cudagraph_capture_size": 4
+  },
+  "enable_chunked_prefill": true,
+  "worker_cls": "native_worker.NativeAuditWorker",
+  "kv_cache_memory_bytes": 6710886400,
+  "kv_cache_dtype": "fp8_e4m3",
+  "attention_backend": "FLASHINFER",
+  "attention_config": {
+    "use_trtllm_attention": true,
+    "disable_flashinfer_q_quantization": true
+  },
+  "quantization_config": {
+    "targets": {
+      "re:^language_model\\.model\\.layers\\.\\d+\\.self_attn\\.(qkv_proj|o_proj)$": "fp8_per_tensor"
+    }
+  },
+  "reasoning_parser": "qwen3",
+  "generation_config": "vllm"
+}

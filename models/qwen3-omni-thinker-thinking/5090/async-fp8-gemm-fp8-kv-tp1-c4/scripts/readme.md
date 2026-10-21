@@ -19,3 +19,7 @@ python3 scripts/stop.py
 - `ops.py` / `stop.py` 依据 UID、PID 启动时间和 session 验证，只停止 receipt 对应的作业。
 
 receipt/日志/缓存/原始输出默认保存在忽略的 `.local/`。VLLM_API_KEY 只从环境读取，不写入公开配置。新包装脚本为整理后的可移植入口，没有额外运行 GPU 测试；核心实测代码和匿名结果见 benchmark/runtime/evidence。
+
+## 新增原生 n-gram 方案
+
+[原生 vLLM N3/K3 · TP1/C4](../../native-ngram3-async-fp8-tp1-c4/readme.md)：2026-10-21 两轮观测 **3.161 条/分钟、273.71 token/s/卡**，Thinking 计入；与原生无 n-gram 的对照及 N5 试验见新报告。该数值不是上文 Omni 配置的复测，也未证明稳定吞吐或语义精度优势。

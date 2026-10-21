@@ -1,0 +1,30 @@
+[
+  {
+    "sample_id": "sample-001",
+    "video_file": "sample-001/video.mp4",
+    "video_sha256": "<sha256-of-your-video>",
+    "reference_count": 3,
+    "reference_images": [
+      {
+        "picture_id": "<Picture 1>",
+        "file": "img01.png",
+        "sha256": "<sha256-of-your-image>"
+      },
+      {
+        "picture_id": "<Picture 2>",
+        "file": "img02.png",
+        "sha256": "<sha256-of-your-image>"
+      },
+      {
+        "picture_id": "<Picture 3>",
+        "file": "img03.png",
+        "sha256": "<sha256-of-your-image>"
+      }
+    ],
+    "duration_seconds": 12.0,
+    "shot_count": 3,
+    "prepared_subdir": "sample-001",
+    "system_prompt_sha256": "<sha256-of-your-frozen-complete-prompt>",
+    "preprocessing_seconds": 0.0
+  }
+]

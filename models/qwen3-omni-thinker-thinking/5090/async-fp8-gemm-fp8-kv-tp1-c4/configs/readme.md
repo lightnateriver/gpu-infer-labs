@@ -7,3 +7,7 @@
 启动脚本复制部署 JSON 到本地状态目录，设置 `KV_SCALES_FILE` 后启动。`devices: "0"` 是 CUDA_VISIBLE_DEVICES 映射后的逻辑卡 0；物理卡由 `start.sh --gpu N` 指定。
 
 配置 JSON 未改写成 BF16 KV。完整启动、版本、测试方式和指标见 [方案说明](../readme.md)。
+
+## 新增原生 n-gram 方案
+
+[原生 vLLM N3/K3 · TP1/C4](../../native-ngram3-async-fp8-tp1-c4/readme.md)：2026-10-21 两轮观测 **3.161 条/分钟、273.71 token/s/卡**，Thinking 计入；与原生无 n-gram 的对照及 N5 试验见新报告。该数值不是上文 Omni 配置的复测，也未证明稳定吞吐或语义精度优势。
